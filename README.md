@@ -3,7 +3,7 @@
 
 ---
 
-### **Slide 4: CERN’s Challenge - Datagrid**
+### **Page 4-5: CERN’s Challenge - Datagrid**
 **Summary**:  
 - **Purpose**: Large Hadron Collider (LHC) tests particle physics theories, including discovering the Higgs Boson.  
 - **Features**: A 27 km ring, cooled to -271.3°C, with detectors like ATLAS, CMS, LHCb, and ALICE.  
@@ -28,7 +28,7 @@
 
 ---
 
-### **Slide 6: Worldwide LHC Computing Grid (WLCG)**
+### **Page 6: Worldwide LHC Computing Grid (WLCG)**
 **Summary**:  
 - **Features**: 1.4 million computer cores, 2 exabytes of storage, and >260 GB/s transfer rates.  
 - **Decentralized System**: Handles 2 million tasks/day for LHC data analysis.  
@@ -52,7 +52,7 @@
 
 ---
 
-### **Slide 7: WLCG - Tiered Structure**
+### **Page 7: WLCG - Tiered Structure**
 **Summary**:  
 - **Tiers**:  
   - **Tier 0**: CERN (central repository).  
@@ -79,7 +79,7 @@
 
 ---
 
-### **Slide 8: WLCG Challenges**
+### **Page 8: WLCG Challenges**
 **Summary**:  
 - Key challenges:  
   - Data integration and scalability.  
@@ -106,7 +106,7 @@
 
 ---
 
-### **Slide 11: What is Data Engineering?**
+### **Page 11: What is Data Engineering?**
 **Summary**:  
 - **ETL Process**:  
   - **Extract**: Collect and clean raw data.  
@@ -132,8 +132,114 @@
    **Answer**: **B**
 
 ---
+Here is the summary and MCQs for **Pages 12-18** and **Pages 20-24**:
 
-### **Slide 19: Data Lifecycle**
+---
+
+### **Page 12: How You Imagine Data**
+**Summary**:  
+- Idealized view: Data is often imagined as clean, well-structured, and easily accessible.  
+
+**Explanation**: This highlights the gap between expectations and reality in data management.
+
+**MCQs**:  
+1. **How do people often imagine data?**  
+   - A) As raw and incomplete  
+   - B) As clean, structured, and accessible  
+   - C) As noisy and unstructured  
+   - D) As visualizations  
+   **Answer**: **B**
+
+---
+
+### **Page 13: How Data Looks**
+**Summary**:  
+- Actual view: Data is typically messy, unstructured, and inconsistent.  
+
+**Explanation**: Data engineers need to address this reality by cleaning and transforming data for usability.
+
+**MCQs**:  
+1. **What is the reality of raw data?**  
+   - A) Clean and consistent  
+   - B) Messy and unstructured  
+   - C) Perfectly formatted for analysis  
+   - D) Already validated  
+   **Answer**: **B**
+
+---
+
+### **Page 14: Why Are Data Moved?**
+**Summary**:  
+- **Reasons for Moving Data**:  
+  - Centralized analysis.  
+  - Compliance with regulations.  
+  - Integration across systems.
+
+**Explanation**: Moving data ensures its usability, compliance, and availability across diverse applications.
+
+**MCQs**:  
+1. **Why are data moved? (Multiple correct)**  
+   - A) To centralize analysis  
+   - B) For compliance purposes  
+   - C) To prevent storage issues  
+   - D) To integrate across systems  
+   **Answer**: **A, B, D**
+
+---
+
+### **Page 15: Role of Data Engineers**
+**Summary**:  
+- **Responsibilities**:  
+  - Build and maintain pipelines.  
+  - Manage ETL processes.  
+  - Ensure data quality and collaboration.  
+
+**Explanation**: Data engineers create the infrastructure for seamless data flow and utilization.
+
+**MCQs**:  
+1. **What is a primary responsibility of data engineers?**  
+   - A) Build predictive models  
+   - B) Create data pipelines  
+   - C) Perform trend analysis  
+   - D) Visualize dashboards  
+   **Answer**: **B**
+
+2. **Which tasks are part of a data engineer's role? (Multiple correct)**  
+   - A) ETL process management  
+   - B) Data quality assurance  
+   - C) Data visualization  
+   - D) Database management  
+   **Answer**: **A, B, D**
+
+---
+
+### **Page 16-18: Comparison of Roles**
+**Summary**:  
+- **Data Engineer**: Builds data pipelines and infrastructure.  
+- **Data Scientist**: Creates models and derives insights.  
+- **Data Analyst**: Visualizes and reports trends for decision-making.  
+
+**Explanation**: Each role plays a distinct yet complementary part in the data ecosystem.
+
+**MCQs**:  
+1. **What is the focus of a data engineer?**  
+   - A) Build infrastructure  
+   - B) Visualize data trends  
+   - C) Support decision-making  
+   - D) Create models  
+   **Answer**: **A**
+
+2. **Which tools are used by data analysts? (Multiple correct)**  
+   - A) Tableau  
+   - B) Excel  
+   - C) Hadoop  
+   - D) Python  
+   **Answer**: **A, B, D**
+
+---
+
+
+### **Page 19: Data Lifecycle**
 **Summary**:  
 - **Stages**:  
   - **Creation**: Collecting data.  
@@ -161,7 +267,102 @@
 
 ---
 
-### **Slide 25: New Requirements for Data Management**
+### **Page 20: Data Sources and Collection**
+**Summary**:  
+- **Types**:  
+  - Structured, semi-structured, unstructured.  
+- **Collection Methods**: APIs, databases, streaming data, web scraping.  
+- **Challenges**: Data quality, volume, and variety.
+
+**Explanation**: Diverse data sources and collection methods require robust strategies for effective handling.
+
+**MCQs**:  
+1. **What are the main types of data? (Multiple correct)**  
+   - A) Structured  
+   - B) Semi-structured  
+   - C) Unstructured  
+   - D) Analyzed  
+   **Answer**: **A, B, C**
+
+2. **Which of the following are data collection methods? (Multiple correct)**  
+   - A) APIs  
+   - B) Streaming data  
+   - C) Data visualization  
+   - D) Web scraping  
+   **Answer**: **A, B, D**
+
+---
+
+### **Page 21-22: Object-Relational Database Technologies**
+**Summary**:  
+- **Technologies**:  
+  - Object-relational DBMS (ORDBMS).  
+  - Object-oriented DBMS (OODBMS).  
+  - Object Query Languages.  
+
+**Explanation**: These technologies address modern requirements by bridging relational and object-oriented paradigms.
+
+**MCQs**:  
+1. **Which of the following are database technologies? (Multiple correct)**  
+   - A) Object-relational DBMS  
+   - B) Key-value stores  
+   - C) Object Query Languages  
+   - D) SQL-only DBMS  
+   **Answer**: **A, B, C**
+
+---
+
+### **Page 23: Challenges for Relational Databases**
+**Summary**:  
+- **Old World**: Millions of small, simple objects.  
+- **New World**: Billions of complex objects with behaviors (e.g., methods).  
+- **Challenge**: Relational databases struggle with scaling to these new needs.
+
+**Explanation**: Modern scenarios require databases to handle large-scale, complex data objects efficiently.
+
+**MCQs**:  
+1. **What is a major challenge for traditional relational databases?**  
+   - A) Handling small objects  
+   - B) Managing billions of complex objects  
+   - C) Integrating SQL  
+   - D) Storing structured data only  
+   **Answer**: **B**
+
+2. **What distinguishes the "New World" of data? (Multiple correct)**  
+   - A) Complexity of data objects  
+   - B) Larger scale of data  
+   - C) Use of methods in objects  
+   - D) Reliance on traditional relational models  
+   **Answer**: **A, B, C**
+
+---
+
+### **Page 24: New Requirements for Data Management**
+**Summary**:  
+- Explosion of unstructured and semi-structured data (e.g., JSON, sensor data).  
+- Complex data types like arrays and maps.  
+- Machine learning algorithms rely on advanced data representations.
+
+**Explanation**: Modern systems must adapt to manage increasing complexity and variety of data.
+
+**MCQs**:  
+1. **What type of data has seen significant growth in recent years?**  
+   - A) Structured data only  
+   - B) Semi-structured and unstructured data  
+   - C) Financial records exclusively  
+   - D) Visualization data  
+   **Answer**: **B**
+
+2. **Which of the following are examples of complex data types? (Multiple correct)**  
+   - A) Arrays  
+   - B) Maps  
+   - C) JSON  
+   - D) Flat tables  
+   **Answer**: **A, B, C**
+
+---
+
+### **Page 25: New Requirements for Data Management**
 **Summary**:  
 - **Trends**:  
   - Increase in unstructured data (e.g., sensor data, social media).  
@@ -186,11 +387,11 @@
    **Answer**: **B**
 
 ---
-Here is a continuation of the summary and MCQs for every slide in the document:
+Here is a continuation of the summary and MCQs for every Page in the document:
 
 ---
 
-### **Slide 26: Evolutionary Approach**
+### **Page 26: Evolutionary Approach**
 **Summary**:  
 - Extends relational databases with object-oriented features like nested tables and arrays.  
 - Maintains backward compatibility with SQL and relational schemas.  
@@ -216,7 +417,7 @@ Here is a continuation of the summary and MCQs for every slide in the document:
 
 ---
 
-### **Slide 28: Revolutionary Approach**
+### **Page 28: Revolutionary Approach**
 **Summary**:  
 - Builds databases based entirely on object-oriented principles.  
 - Features include inheritance, polymorphism, and encapsulation.  
@@ -242,7 +443,7 @@ Here is a continuation of the summary and MCQs for every slide in the document:
 
 ---
 
-### **Slide 29: Object-Relational Impedance Mismatch**
+### **Page 29: Object-Relational Impedance Mismatch**
 **Summary**:  
 - **Conflict**: Differences between object-oriented programming (OOP) and relational databases.  
 - **Key Issues**:
@@ -267,14 +468,8 @@ Here is a continuation of the summary and MCQs for every slide in the document:
    - D) High cost of storage  
    **Answer**: **A, B, C**
 
-**Explanation**:  
-- **A) Schema evolution**: Changes in object models often require corresponding schema changes in relational databases, making updates complex.  
-- **B) Lack of inheritance support**: Relational databases lack native inheritance support, creating difficulties in representing object-oriented hierarchies.  
-- **C) Difficulty in managing relationships**: Object references in OOP do not directly translate to relational foreign key relationships, adding complexity.  
-- **D) High cost of storage**: This is unrelated to the object-relational impedance mismatch and more of a general database management issue.
----
 
-### **Slide 30: Object-Relational Mapping (ORM)**
+### **Page 31: Object-Relational Mapping (ORM)**
 **Summary**:  
 - **Definition**: A technique to map object-oriented programming (OOP) models to relational databases.  
 - **Functionality**: Automates translation of objects into relational tables, simplifying CRUD operations.  
@@ -299,7 +494,7 @@ Here is a continuation of the summary and MCQs for every slide in the document:
 
 ---
 
-### **Slide 32: ORM Example with Python**
+### **Page 32: ORM Example with Python**
 **Summary**:  
 - **Pure Python**: Manually connects to SQLite, executes SQL, and commits changes.  
 - **Django ORM**: Simplifies database interaction by defining models and performing CRUD operations using object-oriented syntax.
@@ -323,7 +518,7 @@ Here is a continuation of the summary and MCQs for every slide in the document:
 
 ---
 
-### **Slide 34: Object-Relational DBMS vs. Object-Oriented DBMS**
+### **Page 34: Object-Relational DBMS vs. Object-Oriented DBMS**
 **Summary**:  
 - **ORDBMS**: Combines relational and object-oriented features, extends SQL.  
 - **OODBMS**: Fully object-oriented, supports encapsulation, inheritance, and polymorphism.
@@ -347,7 +542,7 @@ Here is a continuation of the summary and MCQs for every slide in the document:
 
 ---
 
-### **Slide 37: ORDBMS**
+### **Page 37-39: ORDBMS**
 **Summary**:  
 - **Definition**: Extends traditional relational models with object-oriented features.  
 - **Key Features**: Supports objects, classes, inheritance, and methods.  
@@ -372,7 +567,7 @@ Here is a continuation of the summary and MCQs for every slide in the document:
 
 ---
 
-### **Slide 40: SQL:1999**
+### **Page 40-41: SQL:1999**
 **Summary**:  
 - **Extensions**:  
   - Recursive queries (WITH clause).  
@@ -399,7 +594,7 @@ Here is a continuation of the summary and MCQs for every slide in the document:
 
 ---
 
-### **Slide 42: SQL:1999 - Selected Extensions for Complex Types**
+### **Page 42: SQL:1999 - Selected Extensions for Complex Types**
 **Summary**:  
 - **Features**:  
   - User-defined types and functions.  
@@ -425,7 +620,7 @@ Here is a continuation of the summary and MCQs for every slide in the document:
 
 ---
 
-### **Slide 47: User-Defined Functions (UDFs)**
+### **Page 47: User-Defined Functions (UDFs)**
 **Summary**:  
 - **Definition**: Custom functions written in SQL or procedural languages.  
 - **Use Case**: Enables advanced querying and encapsulation of logic.  
@@ -450,7 +645,7 @@ Here is a continuation of the summary and MCQs for every slide in the document:
 
 ---
 
-### **Slide 49: Object-Oriented Database Management Systems (OODBMS)**
+### **Object-Oriented Database Management Systems (OODBMS)**
 **Summary**:  
 - **Characteristics**:  
   - Stores data as objects, matching programming paradigms.  
@@ -476,29 +671,5 @@ Here is a continuation of the summary and MCQs for every slide in the document:
 
 ---
 
-### Parallel and Distributed DBMS**
-**Summary**:  
-- **Parallel Databases**: Use multiple processors to speed up query execution.  
-- **Distributed Databases**: Store data across multiple nodes for reliability and scalability.  
-- **Key Features**: Replication, fragmentation, and query optimization.
-
-**Explanation**: These systems enhance performance and reliability for large-scale data operations.
-
-**MCQs**:  
-1. **What is the primary advantage of parallel databases?**  
-   - A) Single-node performance  
-   - B) Faster query execution using multiple processors  
-   - C) Simplified data modeling  
-   - D) NoSQL support  
-   **Answer**: **B**
-
-2. **Which of the following are key features of distributed databases? (Multiple correct)**  
-   - A) Data replication  
-   - B) Fragmentation  
-   - C) Query optimization  
-   - D) Single-node storage  
-   **Answer**: **A, B, C**
-
----
 
 
