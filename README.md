@@ -186,7 +186,92 @@
    **Answer**: **B**
 
 ---
+Here is a continuation of the summary and MCQs for every slide in the document:
 
+---
+
+### **Slide 26: Evolutionary Approach**
+**Summary**:  
+- Extends relational databases with object-oriented features like nested tables and arrays.  
+- Maintains backward compatibility with SQL and relational schemas.  
+- Ensures gradual integration for smoother transitions.  
+- Prioritizes robustness and reliability.
+
+**Explanation**: Evolutionary approaches enhance existing systems without major disruptions.
+
+**MCQs**:  
+1. **What is the primary focus of the evolutionary approach?**  
+   - A) Build entirely new databases  
+   - B) Extend relational databases with object-oriented features  
+   - C) Eliminate traditional relational models  
+   - D) Focus on machine learning integration  
+   **Answer**: **B**
+
+2. **Which of the following are benefits of the evolutionary approach? (Multiple correct)**  
+   - A) Backward compatibility with SQL  
+   - B) Robustness and reliability  
+   - C) Complete redesign of databases  
+   - D) Gradual integration  
+   **Answer**: **A, B, D**
+
+---
+
+### **Slide 28: Revolutionary Approach**
+**Summary**:  
+- Builds databases based entirely on object-oriented principles.  
+- Features include inheritance, polymorphism, and encapsulation.  
+- Requires complete restructuring of database systems.  
+- Prioritizes object-oriented design over traditional models.
+
+**Explanation**: Revolutionary approaches create entirely new systems tailored to modern needs.
+
+**MCQs**:  
+1. **What is a characteristic of the revolutionary approach?**  
+   - A) Gradual integration  
+   - B) Backward compatibility  
+   - C) Complete restructuring of database systems  
+   - D) Use of relational schemas  
+   **Answer**: **C**
+
+2. **Which features are supported by revolutionary databases? (Multiple correct)**  
+   - A) Encapsulation  
+   - B) Inheritance  
+   - C) Polymorphism  
+   - D) SQL-only queries  
+   **Answer**: **A, B, C**
+
+---
+
+### **Slide 29: Object-Relational Impedance Mismatch**
+**Summary**:  
+- **Conflict**: Differences between object-oriented programming (OOP) and relational databases.  
+- **Key Issues**:
+  - OOP: Classes, inheritance, references.
+  - Relational: Tables, rows, foreign keys.  
+- Requires additional mapping for seamless integration.
+
+**Explanation**: Bridging OOP and relational models is critical for modern applications.
+
+**MCQs**:  
+1. **What is the object-relational impedance mismatch?**  
+   - A) Conflict between object-oriented programming and relational databases  
+   - B) Difficulty in creating user-defined types  
+   - C) Inefficient query optimization  
+   - D) Compatibility issues with machine learning models  
+   **Answer**: **A**
+
+2. **Which of the following are challenges caused by object-relational impedance mismatch? (Multiple correct)**  
+   - A) Schema evolution  
+   - B) Lack of inheritance support  
+   - C) Difficulty in managing relationships  
+   - D) High cost of storage  
+   **Answer**: **A, B, C**
+
+**Explanation**:  
+- **A) Schema evolution**: Changes in object models often require corresponding schema changes in relational databases, making updates complex.  
+- **B) Lack of inheritance support**: Relational databases lack native inheritance support, creating difficulties in representing object-oriented hierarchies.  
+- **C) Difficulty in managing relationships**: Object references in OOP do not directly translate to relational foreign key relationships, adding complexity.  
+- **D) High cost of storage**: This is unrelated to the object-relational impedance mismatch and more of a general database management issue.
 ---
 
 ### **Slide 30: Object-Relational Mapping (ORM)**
