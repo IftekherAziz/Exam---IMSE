@@ -1,4 +1,4 @@
-# Exam - IMSE
+# Mid Term Exam - Information Management and System Enginnering
 ## Lecture 1: Data Engineering
 
 ---
@@ -670,6 +670,10 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    **Answer**: **A, B, D**
 
 ---
+
+## Lecture 2: Data Engineering:
+
+----
 
 
 
