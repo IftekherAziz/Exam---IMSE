@@ -908,7 +908,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 
 ---
 
-### **Slide 32: Performance Metrics in Database Scalability**
+### **Page 32: Performance Metrics in Database Scalability**
 **Summary**:  
 - **Key Metrics**:
   - **Speedup**: More hardware reduces execution time for the same task.
@@ -934,7 +934,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 
 ---
 
-### **Slide 35: Distributed Database Systems - Data Replication**
+### **Page 35: Distributed Database Systems - Data Replication**
 **Summary**:  
 - **Replication Types**:
   - **Synchronous**: Strong consistency but higher latency.
@@ -963,7 +963,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 
 ---
 
-### **Slide 36: Distributed Database Systems - Design Considerations**
+### **Page 36: Distributed Database Systems - Design Considerations**
 **Summary**:  
 - **Key Factors**:
   - Network structure: Latency, bandwidth, and partitioning.
@@ -989,7 +989,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 
 ---
 
-### **Slide 37: Single System Image (SSI) for Distributed Databases**
+### **Page 37: Single System Image (SSI) for Distributed Databases**
 **Summary**:  
 - Provides the appearance of a centralized system.
 - **Features**:
@@ -1016,7 +1016,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 
 ---
 
-### **Slide 38: Transparency in Distributed Systems**
+### **Page 38: Transparency in Distributed Systems**
 **Summary**:  
 - **Types of Transparency**:
   - **Replication**: Users don’t need to manage replicated data.  
@@ -1042,7 +1042,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 
 ---
 
-### **Slide 39: Benefits of Transparency in Distributed Systems**
+### **Page 39: Benefits of Transparency in Distributed Systems**
 **Summary**:  
 - **Advantages**:
   - Easier application development.
@@ -1071,7 +1071,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 
 ---
 
-### **Slide 40: Distributed Database Systems - Fragmentation**
+### **Page 40: Distributed Database Systems - Fragmentation**
 **Summary**:  
 - **Types**:
   - **Horizontal**: Rows distributed across sites.
@@ -1101,7 +1101,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 
 ---
 
-### **Slide 43: Exploring Parallelism in Databases**
+### **Page 43: Exploring Parallelism in Databases**
 **Summary**:  
 - **Intra-Query Parallelism**:
   - Divides a single query into subtasks (e.g., scans, joins).
@@ -1127,7 +1127,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 
 ---
 
-### **Slide 45: Distributed vs. Parallel Databases**
+### **Page 45: Distributed vs. Parallel Databases**
 **Summary**:  
 - **Parallel Databases**:
   - Nodes are close geographically.
@@ -1154,3 +1154,610 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    **Answer**: **B**
 
 ---
+
+## Lecture 3: Data Engineering:
+---
+
+### **Page 5: MapReduce Overview**
+**Summary**:
+- **Definition**: Programming model for large-scale data processing.  
+- **Key Features**:
+  - Simplifies complex data processing.
+  - Harnesses multiple CPUs for distributed work.
+  - Built-in fault tolerance.
+  - Three phases: **Map**, **Shuffle**, and **Reduce**.
+
+**Explanation**: MapReduce divides large data tasks into smaller, manageable parts and processes them in parallel, ensuring fault tolerance.
+
+**MCQs**:
+1. **What are the three phases of MapReduce?**  
+   - A) Extract, Transform, Load  
+   - B) Map, Shuffle, Reduce  
+   - C) Input, Process, Output  
+   - D) Clean, Aggregate, Transform  
+   **Answer**: **B**
+
+2. **What is a core benefit of MapReduce? (Multiple correct)**  
+   - A) Fault tolerance  
+   - B) Parallel processing  
+   - C) High-speed local execution  
+   - D) Simplified data visualization  
+   **Answer**: **A, B**
+
+---
+
+### **Page 11: MapReduce: The Essence of Divide and Conquer**
+**Summary**:  
+- **Concept**: MapReduce is a programming model inspired by the divide-and-conquer paradigm.  
+- **Core Phases**:
+  - **Map**: Splits the input data into smaller subsets and processes them in parallel.
+  - **Shuffle**: Redistributes data based on keys for reduction.
+  - **Reduce**: Aggregates the processed data into meaningful results.  
+- **Advantages**:
+  - Parallel processing for scalability.
+  - Fault tolerance ensures reliability.
+  - Handles large-scale data efficiently.
+
+**Explanation**: MapReduce simplifies processing of vast datasets by dividing tasks, enabling parallelism, and efficiently aggregating results.
+
+---
+
+### **MCQs**:
+1. **What is the primary programming model for MapReduce?**  
+   - A) Client-server  
+   - B) Divide and conquer  
+   - C) Master-slave  
+   - D) Sequential execution  
+   **Answer**: **B**
+
+2. **What are the core phases of MapReduce? (Multiple correct)**  
+   - A) Extract  
+   - B) Map  
+   - C) Shuffle  
+   - D) Reduce  
+   **Answer**: **B, C, D**
+
+3. **What is the role of the Map phase in MapReduce?**  
+   - A) Aggregates the results  
+   - B) Processes data subsets in parallel  
+   - C) Combines all outputs into one  
+   - D) Redistributes data based on keys  
+   **Answer**: **B**
+
+4. **Which phase of MapReduce redistributes data based on keys?**  
+   - A) Map  
+   - B) Shuffle  
+   - C) Reduce  
+   - D) Aggregate  
+   **Answer**: **B**
+
+5. **What are the key advantages of MapReduce? (Multiple correct)**  
+   - A) Handles small datasets efficiently  
+   - B) Parallel processing for scalability  
+   - C) Fault tolerance for reliability  
+   - D) Sequential task execution  
+   **Answer**: **B, C**
+
+### **Page 12-13: Hadoop Ecosystem**
+**Summary**:
+- **Hadoop Ecosystem Components**:
+  - **HDFS**: Distributed file system with 3x data replication.
+  - **Hadoop MapReduce**: Framework for parallel programming.
+  - **HBase**: NoSQL database modeled based on Google BigTable. 
+  - **YARN**: Resource management.
+
+**Explanation**:
+The Hadoop Ecosystem provides an integrated framework to store, process, and analyze massive datasets in a scalable and distributed manner, using specialized tools tailored to different requirements.
+
+---
+
+**MCQs**:
+
+1. **What does HDFS provide in the Hadoop Ecosystem?**  
+   - A) Data replication for fault tolerance  
+   - B) Query optimization  
+   - C) Real-time data processing  
+   - D) High-level scripting for MapReduce  
+   **Answer**: **A**
+
+2. **Which component of Hadoop manages cluster resources?**  
+   - A) HBase  
+   - B) MapReduce  
+   - C) YARN  
+   - D) Sqoop  
+   **Answer**: **C**
+
+3. **What is the primary function of Hive in Hadoop?**  
+   - A) Resource negotiation  
+   - B) SQL-like querying on large datasets  
+   - C) Distributed coordination  
+   - D) Data replication  
+   **Answer**: **B**
+
+4. **Which of the following components are part of the Hadoop Ecosystem? (Multiple correct)**  
+   - A) Pig  
+   - B) Flume  
+   - C) PostgreSQL  
+   - D) Zookeeper  
+   **Answer**: **A, B, D**
+
+5. **What is Sqoop used for in the Hadoop Ecosystem?**  
+   - A) Resource management  
+   - B) Data transfer between Hadoop and relational databases  
+   - C) Log aggregation and transfer  
+   - D) Querying unstructured data  
+   **Answer**: **B**
+
+
+---
+
+### **Page 14-17: Semi-Structured Data**
+**Summary**:
+- Characteristics:
+  - **Self-describing**: Schema embedded in the data.
+  - **Flexible schema**: Adapts to changes.
+  - **Hierarchical structure**: Nested elements.
+  - **Human and machine-readable**: Easily processed.
+
+**Explanation**: Semi-structured data like JSON and XML combines the advantages of structured and unstructured data formats.
+
+**MCQs**:
+1. **What is a characteristic of semi-structured data? (Multiple correct)**  
+   - A) Self-describing  
+   - B) Rigid schema  
+   - C) Hierarchical structure  
+   - D) Proprietary formats  
+   **Answer**: **A, C**
+
+2. **Which of the following are examples of semi-structured data?**  
+   - A) JSON  
+   - B) CSV  
+   - C) XML  
+   - D) RDF  
+   **Answer**: **A, C, D**
+
+---
+
+### **Page 15: Limitations of Traditional Data Formats**
+**Summary**:
+- **Rigidity**: Traditional data formats require fixed schemas, making them inflexible for evolving requirements.
+- **Scalability Issues**: Struggles with handling large-scale, semi-structured, or unstructured data.
+- **Poor Adaptability**: Limited support for hierarchical and nested structures (e.g., XML, JSON).
+- **Integration Challenges**: Difficulties in integrating with modern data systems like NoSQL databases and cloud platforms.
+
+**Explanation**:
+Traditional data formats, such as relational databases or CSV files, are ill-suited for the dynamic and diverse needs of modern data applications, which often deal with semi-structured or hierarchical data.
+
+---
+
+**MCQs**:
+
+1. **What is a major limitation of traditional data formats?**  
+   - A) Lack of fixed schemas  
+   - B) Inability to scale with large or unstructured data  
+   - C) Excessive flexibility for modern systems  
+   - D) Over-support for hierarchical data structures  
+   **Answer**: **B**
+
+2. **Which of the following are challenges associated with traditional data formats? (Multiple correct)**  
+   - A) Poor adaptability to hierarchical structures  
+   - B) Integration difficulties with modern platforms  
+   - C) Efficient handling of semi-structured data  
+   - D) Dependence on fixed schemas  
+   **Answer**: **A, B, D**
+
+3. **Why do traditional data formats struggle with modern data systems?**  
+   - A) They are optimized for NoSQL databases  
+   - B) They rely heavily on predefined schemas  
+   - C) They support hierarchical structures by default  
+   - D) They have seamless cloud integration  
+   **Answer**: **B**
+
+---
+
+
+### **Page 18-24: Extensible Markup Language (XML)**
+**Summary**:
+- **Definition**: A markup language for data storage and transmission.  
+- **Advantages**:
+  - Human and machine-readable.
+  - Web-compatible for widespread adoption.
+  - Adaptable to diverse applications.
+
+**Explanation**: XML's flexibility and simplicity make it a standard for structured data exchange.
+
+**MCQs**:
+1. **What is XML primarily used for?**  
+   - A) Data storage and transmission  
+   - B) Image compression  
+   - C) Machine learning models  
+   - D) Visualizations  
+   **Answer**: **A**
+
+2. **What is a key factor for XML's rise in popularity? (Multiple correct)**  
+   - A) Flexibility and simplicity  
+   - B) Web compatibility  
+   - C) Rigid schema  
+   - D) Machine readability  
+   **Answer**: **A, B, D**
+
+---
+
+### **Page 25: Document-Centric vs. Data-Centric XML**
+**Summary**:
+- **Document-Centric**:
+  - Focus on layout and formatting (e.g., reports, articles).
+- **Data-Centric**:
+  - Structured data exchange (e.g., invoices, orders).
+
+**Explanation**: XML supports both document formatting and structured data exchange, broadening its use cases.
+
+**MCQs**:
+1. **What is document-centric XML primarily used for?**  
+   - A) Invoices and purchase orders  
+   - B) Layout and formatting  
+   - C) Machine-readable data exchange  
+   - D) APIs  
+   **Answer**: **B**
+
+2. **Which type of XML is used for structured data exchange?**  
+   - A) Document-centric  
+   - B) Data-centric  
+   - C) Flat XML  
+   - D) Markup-free XML  
+   **Answer**: **B**
+
+---
+
+### **Page 26: Disadvantages of XML**
+**Summary**:
+- **Verbosity**: XML is text-heavy, leading to larger file sizes compared to binary formats.  
+- **Processing Overhead**: Parsing XML consumes more computational resources due to its complexity.  
+- **Redundancy**: Repeated tags and attributes make XML less efficient for storage and transmission.  
+- **Schema Dependence**: Requires schema validation for stricter data structure enforcement, adding complexity.  
+- **Limited Performance**: Inefficient for high-speed data exchange in performance-critical applications.
+
+**Explanation**: While XML provides flexibility and compatibility, its verbosity and resource-intensive nature make it less suitable for large-scale or performance-intensive tasks compared to alternatives like JSON or binary formats.
+
+---
+
+**MCQs**:
+
+1. **What is a major disadvantage of XML?**  
+   - A) Lack of support for hierarchical structures  
+   - B) High verbosity and larger file sizes  
+   - C) Limited readability by humans  
+   - D) Inability to define custom data types  
+   **Answer**: **B**
+
+2. **Why does XML have a high processing overhead?**  
+   - A) It is a binary format.  
+   - B) It lacks schema validation.  
+   - C) Parsing requires handling complex structures.  
+   - D) Tags are case-insensitive.  
+   **Answer**: **C**
+
+3. **Which of the following are disadvantages of XML? (Multiple correct)**  
+   - A) Redundancy due to repeated tags  
+   - B) High storage efficiency  
+   - C) Dependency on schemas for validation  
+   - D) Verbosity in data representation  
+   **Answer**: **A, C, D**
+
+4. **What makes XML less efficient than JSON?**  
+   - A) Lack of compatibility  
+   - B) Higher verbosity and redundancy  
+   - C) Inability to represent structured data  
+   - D) Limited use in modern web applications  
+   **Answer**: **B**
+
+---
+
+### **Page 27: Use Cases of XML**
+**Summary**:
+- **Data Interchange**: XML is widely used for exchanging data between heterogeneous systems (e.g., APIs, web services).  
+- **Configuration Files**: Serves as a standard for application and system configuration (e.g., `.config` files).  
+- **Document Storage**: Useful for storing semi-structured and hierarchical data (e.g., technical manuals, books).  
+- **Web Applications**: Facilitates data exchange between servers and clients in web-based environments.  
+- **Metadata Representation**: Ideal for representing metadata in various domains (e.g., RDF for semantic web).
+
+**Explanation**: XML's versatility and compatibility make it a preferred choice for structured data representation, configuration, and cross-platform data sharing.
+
+---
+
+**MCQs**:
+
+1. **What is a common use case for XML?**  
+   - A) Data interchange between systems  
+   - B) High-speed data analytics  
+   - C) Video file compression  
+   - D) Real-time game development  
+   **Answer**: **A**
+
+2. **Why is XML often used for configuration files?**  
+   - A) It is binary and efficient for storage.  
+   - B) It is human-readable and flexible for structured data.  
+   - C) It requires no predefined schema.  
+   - D) It is faster than JSON.  
+   **Answer**: **B**
+
+3. **Which of the following are use cases of XML? (Multiple correct)**  
+   - A) Storing hierarchical documents  
+   - B) Exchanging data via web services  
+   - C) Representing metadata  
+   - D) Optimizing binary data processing  
+   **Answer**: **A, B, C**
+
+4. **In which domain is XML widely used for metadata representation?**  
+   - A) Semantic web  
+   - B) Video compression  
+   - C) Real-time messaging  
+   - D) Machine learning algorithms  
+   **Answer**: **A**
+
+---
+
+Here is the detailed summary for **"Types of XML Content"** from the lecture:
+
+---
+
+### **Page 28: Types of XML Content**
+**Summary**:  
+- **Element Content**:  
+  - Contains nested elements or sub-elements.
+  - Example:  
+    ```xml
+    <book>
+      <title>XML Guide</title>
+      <author>John Doe</author>
+    </book>
+    ```
+- **Mixed Content**:  
+  - Contains both text and elements.
+  - Example:  
+    ```xml
+    <description>This book covers <emphasis>XML basics</emphasis>.</description>
+    ```
+- **Empty Content**:  
+  - Contains no value; used for metadata.
+  - Example:  
+    ```xml
+    <lineBreak />
+    ```
+- **Text Content**:  
+  - Contains only text with no sub-elements.
+  - Example:  
+    ```xml
+    <title>XML Guide</title>
+    ```
+
+**Explanation**:  
+These content types allow XML to represent structured data flexibly, combining text, metadata, and hierarchical elements.
+
+---
+
+### **MCQs for "Types of XML Content"**
+1. **What type of XML content contains nested elements?**  
+   - A) Text Content  
+   - B) Mixed Content  
+   - C) Element Content  
+   - D) Empty Content  
+   **Answer**: **C**
+
+2. **Which of the following is an example of mixed content?**  
+   - A) `<lineBreak />`  
+   - B) `<title>XML Guide</title>`  
+   - C) `<description>This book covers <emphasis>XML basics</emphasis>.</description>`  
+   - D) `<book><title>XML Guide</title></book>`  
+   **Answer**: **C**
+
+3. **What does empty content in XML represent?**  
+   - A) Metadata or placeholders  
+   - B) Textual data only  
+   - C) Nested hierarchical data  
+   - D) Combination of text and elements  
+   **Answer**: **A**
+
+4. **Which type of XML content contains no sub-elements? (Multiple correct)**  
+   - A) Text Content  
+   - B) Empty Content  
+   - C) Mixed Content  
+   - D) Element Content  
+   **Answer**: **A, B**
+
+---
+
+### **Page 30: Elements**
+**Summary**:
+- **Elements** are the fundamental building blocks of XML.
+- **Requirements**:
+  - Must have valid names (cannot begin with numbers, spaces, or invalid characters like `:` or `.` in certain positions).
+  - Contain a start tag `<tag>` and a corresponding end tag `</tag>`.
+  - Can be nested to create a hierarchy.
+  - Must always be properly closed (either explicitly with an end tag or as self-closing tags).
+
+**Examples**:
+- **Valid Elements**:
+  - `<_card>`
+  - `<Card.Info>`
+  - `<Card-Info_box>`
+- **Invalid Elements**:
+  - `<xML_book>` (invalid case for naming conventions).
+  - `<.tag>` (cannot start with a special character).
+  - `<Card Header>` (spaces are not allowed in names).
+  - `<1Header>` (cannot start with a number).
+  - `<Address:Street>` (colon in this position is not valid).
+
+**Explanation**:  
+XML elements must follow specific naming conventions and syntactical rules to be considered well-formed, ensuring parsability and adherence to XML standards.
+
+---
+
+### **MCQs**:
+1. **What is a requirement for an XML element?**  
+   - A) It must have a valid name.  
+   - B) It can include spaces in the name.  
+   - C) It must always start with a number.  
+   - D) It does not need to be closed.  
+   **Answer**: **A**
+
+2. **Which of the following is a valid XML element name?**  
+   - A) `<Card-Info_box>`  
+   - B) `<.tag>`  
+   - C) `<Card Header>`  
+   - D) `<1Header>`  
+   **Answer**: **A**
+
+3. **Which of the following are invalid XML element names? (Multiple correct)**  
+   - A) `<xML_book>`  
+   - B) `<1Header>`  
+   - C) `<Card.Info>`  
+   - D) `<Card Header>`  
+   **Answer**: **A, B, D**
+
+4. **What does it mean for an XML element to be properly closed?**  
+   - A) It must have a valid start and end tag.  
+   - B) It must have nested elements.  
+   - C) It must include spaces for readability.  
+   - D) It must begin with a number.  
+   **Answer**: **A**
+
+--- 
+
+### **Page 36: Namespaces in XML**
+**Summary**:
+- Ensures unique identification of elements.
+- Prevents name conflicts in combined documents.
+- Prefixes indicate namespaces.
+
+**Explanation**: Namespaces make XML extensible and reusable across various applications.
+
+**MCQs**:
+1. **What is the purpose of namespaces in XML?**  
+   - A) Add redundancy  
+   - B) Ensure unique identification of elements  
+   - C) Simplify parsing  
+   - D) Standardize data exchange formats  
+   **Answer**: **B**
+
+2. **How are namespaces indicated in XML?**  
+   - A) By numeric IDs  
+   - B) Using prefixes before element names  
+   - C) By reserved keywords  
+   - D) Automatically assigned by parsers  
+   **Answer**: **B**
+
+---
+
+### **Page 39: XML Syntax**
+**Summary**:
+- Must be **well-formed**: Proper nesting and closing of tags.
+- Tags are case-sensitive.
+- Attributes must be quoted.
+- A single root element encapsulates all content.
+
+**Explanation**: Adhering to XML syntax ensures documents are parsable and interpretable.
+
+**MCQs**:
+1. **What is a requirement for well-formed XML?**  
+   - A) Case-insensitive tags  
+   - B) Proper nesting of elements  
+   - C) Unquoted attributes  
+   - D) Multiple root elements  
+   **Answer**: **B**
+
+2. **What must XML attributes always include?**  
+   - A) Quoted values  
+   - B) Unique names  
+   - C) Numeric types  
+   - D) Multiple values  
+   **Answer**: **A**
+
+---
+
+### **Page 45: Document Type Definition (DTD)**
+**Summary**:
+- Defines the structure of an XML document.
+- Components:
+  - **Element declarations**.
+  - **Attributes**.
+  - **Entities**.
+- Limitations:
+  - Only supports string data types.
+  - No namespace support.
+
+**Explanation**: DTDs are the foundational schema for XML but have limitations in modern applications.
+
+**MCQs**:
+1. **What does DTD define in XML documents? (Multiple correct)**  
+   - A) Elements  
+   - B) Attributes  
+   - C) Entities  
+   - D) Namespaces  
+   **Answer**: **A, B, C**
+
+2. **What is a limitation of DTD?**  
+   - A) Supports string data types only  
+   - B) Overly complex syntax  
+   - C) Requires manual parsing  
+   - D) Lacks compatibility with XML processors  
+   **Answer**: **A**
+
+---
+
+### **Page 48: XML Schema**
+**Summary**:
+- Richer and more powerful than DTD.
+- Features:
+  - **Namespace support**.
+  - **Custom data types**.
+  - **Data type inheritance**.
+- Modular and precise.
+
+**Explanation**: XML Schema expands XML's capabilities with modern data type support and modular design.
+
+**MCQs**:
+1. **Which feature is supported by XML Schema but not by DTD?**  
+   - A) String data types  
+   - B) Namespace support  
+   - C) Element declarations  
+   - D) Attribute declarations  
+   **Answer**: **B**
+
+2. **What is an advantage of XML Schema? (Multiple correct)**  
+   - A) Custom data types  
+   - B) Modular design  
+   - C) Precise validation  
+   - D) Legacy system compatibility  
+   **Answer**: **A, B, C**
+
+---
+
+### **Page 55: XPath Overview**
+**Summary**:
+- **Definition**: Language for navigating XML elements and attributes.
+- **Key Features**:
+  - Axis for relationships (parent, sibling).
+  - Predicates for filtering results.
+  - Node selection via paths.
+
+**Explanation**: XPath allows detailed and flexible navigation within XML documents.
+
+**MCQs**:
+1. **What is XPath used for?**  
+   - A) Transforming XML documents  
+   - B) Navigating XML elements and attributes  
+   - C) Defining XML schemas  
+   - D) Compressing XML files  
+   **Answer**: **B**
+
+2. **What does the XPath `//@id` select?**  
+   - A) All nodes  
+   - B) All attributes named 'id'  
+   - C) Root nodes only  
+   - D) Descendant elements  
+   **Answer**: **B**
+
+---
+
+This covers the entire lecture. Let me know if you’d like to refine or expand further!
