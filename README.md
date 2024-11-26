@@ -2497,3 +2497,345 @@ XML Schema extends the functionality of DTD with modern features like namespaces
 
 ---
 
+### **Page 5: JavaScript Object Notation (JSON)**
+
+**Summary**:  
+- **Definition**: JSON is a lightweight, text-based, human-readable format for representing structured data.  
+- **Key Features**:
+  1. **Simplicity**: Easy to understand and use.  
+  2. **Language-Independent**: Supported across various programming languages.  
+  3. **Universal**: Widely used for data exchange, particularly in APIs and web services.  
+- **Characteristics**:
+  - Syntactically similar to JavaScript, but with stricter rules.
+  - Defined as an independent standard under **ECMA-404** and **RFC 8259**.
+
+**Explanation**: JSON provides a universal, simple, and efficient means of exchanging data between systems and applications.
+
+---
+
+**MCQs**:  
+
+1. **What is JSON primarily used for?**  
+   - A) Data exchange between systems  
+   - B) Image compression  
+   - C) Text formatting  
+   - D) Schema validation  
+   **Answer**: **A**
+
+2. **Which of the following are key features of JSON? (Multiple correct)**  
+   - A) Simplicity  
+   - B) Language-Independent  
+   - C) Verbose syntax  
+   - D) Universal usage  
+   **Answer**: **A, B, D**
+
+3. **Which standards define JSON? (Multiple correct)**  
+   - A) ECMA-404  
+   - B) RFC 8259  
+   - C) XML Schema  
+   - D) ISO 9001  
+   **Answer**: **A, B**
+
+4. **What is JSON's relationship with JavaScript?**  
+   - A) JSON is a JavaScript library.  
+   - B) JSON is syntactically similar but language-independent.  
+   - C) JSON is a replacement for JavaScript in APIs.  
+   - D) JSON and JavaScript are incompatible.  
+   **Answer**: **B**
+
+---
+
+### **Page 8: JSON Elements - Building Blocks of Data**
+
+**Summary**:  
+- JSON's fundamental structure is composed of **key-value pairs**, such as `"name": "John Doe"`.  
+- **Supported Data Types**:  
+  1. **Strings**: Enclosed in double quotes (e.g., `"text"`).  
+  2. **Numbers**: Integers or decimals (e.g., `123`, `1.23`).  
+  3. **Booleans**: True or False values (e.g., `true`).  
+  4. **Null**: Represents an absence of value (e.g., `"website": null`).  
+  5. **Arrays**: Ordered list of values (e.g., `["apple", "banana"]`).  
+  6. **Objects**: Unordered collection of key-value pairs (e.g., `"Book": { "title": "JSON Basics" }`).  
+
+**Explanation**: JSON's data types provide a simple and flexible way to represent structured information, accommodating both individual values and complex nested structures.
+
+---
+
+**MCQs**:
+
+1. **What is the basic structure of JSON?**  
+   - A) Key-value pairs  
+   - B) Relational tables  
+   - C) Hierarchical tags  
+   - D) XML schemas  
+   **Answer**: **A**
+
+2. **Which of the following are valid JSON data types? (Multiple correct)**  
+   - A) String  
+   - B) Tuple  
+   - C) Array  
+   - D) Boolean  
+   **Answer**: **A, C, D**
+
+3. **What does the "null" data type in JSON represent?**  
+   - A) Empty string  
+   - B) Boolean value  
+   - C) Absence of a value  
+   - D) Zero value  
+   **Answer**: **C**
+
+4. **Which JSON data type represents an unordered collection of key-value pairs?**  
+   - A) Array  
+   - B) Object  
+   - C) String  
+   - D) Boolean  
+   **Answer**: **B**
+
+5. **What is a valid example of a JSON array?**  
+   - A) `{ "fruits": "apple, banana" }`  
+   - B) `["apple", "banana"]`  
+   - C) `[true: "apple", false: "banana"]`  
+   - D) `"fruits": "apple"`  
+   **Answer**: **B**
+
+---
+
+### **Page 11: XML vs. JSON - Mapping Challenges (Slide 1)**
+
+**Summary**:  
+- **XML Example**: Uses tags to define structure and data relationships explicitly.  
+- **JSON Example**: Relies on nested key-value pairs for data representation.  
+- **Key Challenges**:
+  - XML is verbose with a strong emphasis on metadata through attributes and elements.
+  - JSON is more concise, but mapping deeply nested JSON structures to XML requires manual adjustments.
+
+**Explanation**: Mapping between XML and JSON can be challenging due to differences in verbosity, hierarchy representation, and the treatment of attributes.
+
+---
+
+**MCQs**:
+
+1. **Which format is more concise for data representation?**  
+   - A) XML  
+   - B) JSON  
+   **Answer**: **B**
+
+2. **What is a key characteristic of XML compared to JSON?**  
+   - A) It uses key-value pairs.  
+   - B) It is more verbose and metadata-rich.  
+   - C) It is language-independent.  
+   - D) It cannot represent hierarchical data.  
+   **Answer**: **B**
+
+3. **What does the JSON example on the slide represent?**  
+   - A) A book's metadata  
+   - B) A person's name and favorite numbers  
+   - C) An array of book genres  
+   - D) A list of authors  
+   **Answer**: **B**
+
+---
+
+### **Page 12: XML vs. JSON - Mapping Challenges (Slide 2)**
+
+**Summary**:  
+- **XML Example**: Represents a book with attributes (`author`, `genre`) and elements (`title`, `year`).  
+- **JSON Example**: Similar structure with nested objects and key-value pairs but lacks explicit support for attributes.  
+- **Key Mapping Differences**:
+  - XML attributes must be converted into key-value pairs in JSON.  
+  - JSON inherently uses a nested object structure instead of attributes.  
+
+**Explanation**: Converting attributes in XML to JSON keys and preserving hierarchy while maintaining data integrity can be complex.
+
+---
+
+**MCQs**:
+
+1. **How are XML attributes typically handled when mapping to JSON?**  
+   - A) Converted to key-value pairs  
+   - B) Dropped entirely  
+   - C) Stored as separate files  
+   - D) Represented as nested arrays  
+   **Answer**: **A**
+
+2. **What does the XML example in the slide describe?**  
+   - A) A library  
+   - B) A single book's metadata  
+   - C) A collection of authors  
+   - D) A list of book genres  
+   **Answer**: **B**
+
+3. **Which of the following is a difference between XML and JSON?**  
+   - A) JSON supports attributes directly, while XML does not.  
+   - B) XML uses tags and attributes, while JSON uses key-value pairs.  
+   - C) JSON is more verbose than XML.  
+   - D) XML does not support hierarchical data.  
+   **Answer**: **B**
+
+4. **What would the JSON equivalent of `<book genre="Fantasy">` look like?**  
+   - A) `"book": { "genre": "Fantasy" }`  
+   - B) `"book": [ "Fantasy" ]`  
+   - C) `{ "book": "Fantasy" }`  
+   - D) `"Fantasy": { "book" }`  
+   **Answer**: **A**
+
+---
+
+### **Page 13: Comparison XML with JSON**
+
+**Summary**:  
+| **Feature**        | **XML (Extensible Markup Language)**                               | **JSON (JavaScript Object Notation)**                    |
+|---------------------|-------------------------------------------------------------------|---------------------------------------------------------|
+| **Purpose**         | General data representation and markup for structuring content.  | Lightweight data exchange with ease of readability.     |
+| **Syntax**          | Tags to define elements and attributes. Stricter and verbose.    | Key-value pairs, arrays in square brackets. Simpler.    |
+| **Data Types**      | Rich variety within schemas (e.g., dates, times).                | Limited core data types.                                |
+| **Hierarchy**       | Nested elements; order significant.                              | Nested objects; order is unordered.                     |
+| **Schema Support**  | Supports strict validation (XSD, DTD, Relax NG).                 | JSON Schema exists but is separate and not built-in.    |
+| **Verbosity**       | Verbose due to tags and attributes.                              | Less verbose; smaller files.                           |
+| **Readability**     | Readable, but complexity reduces clarity.                        | Generally easier to read.                               |
+| **Best Uses**       | Configuration files, rich text formatting, and complex data.     | APIs, web apps, lightweight data exchange formats.      |
+
+**Explanation**: XML is ideal for complex data structures and validation, while JSON excels in lightweight, simple data exchange for modern applications like APIs.
+
+---
+
+**MCQs**:
+
+1. **What is JSON's primary advantage over XML?**  
+   - A) Rich schema validation  
+   - B) Simplicity and readability  
+   - C) Rich text formatting support  
+   - D) Tag-based structure  
+   **Answer**: **B**
+
+2. **Which format supports schema validation built into its core?**  
+   - A) JSON  
+   - B) XML  
+   - C) YAML  
+   - D) SQL  
+   **Answer**: **B**
+
+3. **In which scenarios is JSON preferred over XML? (Multiple correct)**  
+   - A) APIs and web apps  
+   - B) Lightweight data exchanges  
+   - C) Complex data validation  
+   - D) Configuration files  
+   **Answer**: **A, B**
+
+4. **What is a major drawback of XML compared to JSON?**  
+   - A) It lacks schema validation.  
+   - B) It is less verbose than JSON.  
+   - C) It is more verbose and complex.  
+   - D) It cannot represent hierarchical data.  
+   **Answer**: **C**
+
+5. **Which of the following statements is true about JSON?**  
+   - A) JSON uses key-value pairs and is less verbose than XML.  
+   - B) JSON requires strict schemas like XML.  
+   - C) JSON is better suited for text formatting than XML.  
+   - D) JSON tags are more structured than XML.  
+   **Answer**: **A**
+
+---
+
+### **Page 14: NoSQL**
+
+**Summary**:  
+- **Definition**: Next-generation database management systems that are non-relational, distributed, open-source, and horizontally scalable.  
+- **Key Characteristics**:
+  1. **Non-Relational**: Designed for flexible and unstructured data.  
+  2. **Horizontally Scalable**: Supports scaling across multiple nodes.  
+  3. **Schema-Free**: No fixed schema, enabling flexibility.  
+  4. **BASE Properties**: Eventually consistent (not ACID-compliant).  
+  5. **Modern Use Case**: Designed for web-scale systems and large datasets.  
+  - Often interpreted as "Not Only SQL" rather than rejecting SQL entirely.
+
+**Explanation**: NoSQL databases address the limitations of traditional relational databases, particularly for distributed and large-scale applications. They emphasize simplicity, scalability, and performance for unstructured or semi-structured data.
+
+---
+
+**MCQs**:
+
+1. **What does NoSQL stand for?**  
+   - A) No Schema Query Language  
+   - B) Not Only SQL  
+   - C) Non-Relational Structured Query Language  
+   - D) Next Online SQL  
+   **Answer**: **B**
+
+2. **Which of the following are key features of NoSQL databases? (Multiple correct)**  
+   - A) Schema-free  
+   - B) Relational-based operations  
+   - C) BASE properties  
+   - D) Horizontally scalable  
+   **Answer**: **A, C, D**
+
+3. **What is a key difference between NoSQL and relational databases?**  
+   - A) NoSQL supports ACID properties.  
+   - B) NoSQL is horizontally scalable and schema-free.  
+   - C) Relational databases are open-source by default.  
+   - D) NoSQL cannot handle unstructured data.  
+   **Answer**: **B**
+
+4. **What is the primary use case for NoSQL databases?**  
+   - A) Small-scale relational applications  
+   - B) Large-scale web systems and big data applications  
+   - C) Strict schema validation  
+   - D) Encrypted databases for security  
+   **Answer**: **B**
+
+5. **Which property is associated with NoSQL databases instead of ACID?**  
+   - A) Scalability  
+   - B) BASE  
+   - C) Schema validation  
+   - D) Transaction safety  
+   **Answer**: **B**
+
+---
+
+### **Page 15: NoSQL Database Systems**
+
+**Summary**:  
+- **Reasons for NoSQL's Popularity**:
+  1. **Development Speed**: Enables faster development cycles compared to SQL databases.  
+  2. **Data Versatility**: Ideal for managing and evolving diverse data structures.  
+  3. **Cost-Effectiveness**: More economical for handling large data volumes.  
+  4. **Scalability and Uptime**: Handles high traffic and ensures continuous uptime efficiently.  
+  5. **Innovation Support**: Facilitates new application paradigms and modern technology requirements.
+
+**Explanation**: NoSQL databases are preferred for their flexibility, scalability, and ability to cater to high-demand applications, making them essential for modern data-intensive scenarios.
+
+---
+
+**MCQs**:
+
+1. **What is a key advantage of NoSQL over traditional SQL databases? (Multiple correct)**  
+   - A) Faster development cycles  
+   - B) More robust schema validation  
+   - C) Scalability and uptime  
+   - D) Cost-effectiveness for large data  
+   **Answer**: **A, C, D**
+
+2. **Why is NoSQL considered cost-effective?**  
+   - A) It eliminates the need for schemas.  
+   - B) It handles large data volumes more economically than SQL.  
+   - C) It uses a simpler API design.  
+   - D) It provides better query optimization than SQL.  
+   **Answer**: **B**
+
+3. **Which of the following reasons contribute to NoSQL's versatility?**  
+   - A) Static schema requirements  
+   - B) Support for evolving data structures  
+   - C) Limited support for distributed systems  
+   - D) Simplified indexing techniques  
+   **Answer**: **B**
+
+4. **What type of applications benefit most from NoSQL databases?**  
+   - A) Applications with static data structures  
+   - B) High-traffic, data-intensive applications  
+   - C) Low-latency real-time gaming only  
+   - D) Small-scale relational applications  
+   **Answer**: **B**
+
+---
+
