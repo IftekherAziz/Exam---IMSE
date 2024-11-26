@@ -2839,3 +2839,241 @@ XML Schema extends the functionality of DTD with modern features like namespaces
 
 ---
 
+### **Page 16: NoSQL Characteristics**
+
+**Summary**:  
+- **Schema Flexibility**: NoSQL databases allow for schema evolution over time, supporting changes in data structure without disruption.  
+- **Scalability**: Horizontal scaling across multiple servers enables efficient management of growing data.  
+- **High Performance & Low Latency**: Optimized for fast reads and writes, crucial for real-time applications.  
+- **Specialized Data Models**: Supports various models like key-value, document, wide-column, and graph databases, catering to different use cases.  
+- **Large Data Volumes**: Designed to handle massive datasets seamlessly.  
+- **BASE vs. ACID**: Focuses on BASE properties (Basically Available, Soft state, Eventually consistent) rather than strict ACID compliance.
+
+**Explanation**: These characteristics make NoSQL databases a powerful choice for modern, scalable, and dynamic applications requiring flexibility and performance.
+
+---
+
+**MCQs**:
+
+1. **What does schema flexibility in NoSQL databases allow?**  
+   - A) Dynamic changes in data structure without disruption  
+   - B) Fixed schema validation like SQL databases  
+   - C) Enforcement of relational rules  
+   - D) Complex schema dependencies  
+   **Answer**: **A**
+
+2. **Which characteristic of NoSQL enables handling large data volumes effectively?**  
+   - A) Vertical scalability  
+   - B) Horizontal scalability  
+   - C) Strict schema enforcement  
+   - D) High-cost infrastructure  
+   **Answer**: **B**
+
+3. **What is the focus of BASE properties in NoSQL databases?**  
+   - A) Strong consistency and isolation  
+   - B) Eventual consistency and availability  
+   - C) Guaranteed transactions and durability  
+   - D) Immediate consistency in distributed systems  
+   **Answer**: **B**
+
+4. **Which of the following are examples of specialized NoSQL data models? (Multiple correct)**  
+   - A) Document databases  
+   - B) Key-value stores  
+   - C) Wide-column stores  
+   - D) Relational tables  
+   **Answer**: **A, B, C**
+
+5. **What is a primary advantage of NoSQL for real-time applications?**  
+   - A) High performance and low latency  
+   - B) Strict ACID compliance  
+   - C) Complex data validation rules  
+   - D) Relational schema enforcement  
+   **Answer**: **A**
+
+---
+
+### **Page 17: Core NoSQL Systems I**
+
+**Summary**:  
+- **Key-Value Stores**:  
+  - Simplest NoSQL database type where data is stored as key-value pairs.  
+  - **Ideal For**:  
+    - Caching.  
+    - Session management.  
+    - Storing user preferences.  
+  - **Examples**: Redis, Memcached, Riak.  
+
+- **Document Databases**:  
+  - Stores data in a document-like structure, often resembling JSON format.  
+  - **Ideal For**:  
+    - Content management systems.  
+    - Semi-structured data.  
+    - Flexible schemas.  
+  - **Examples**: MongoDB, Couchbase, Amazon DocumentDB, BaseX.  
+
+**Explanation**: Key-value stores are efficient for simple use cases, while document databases offer flexibility for handling semi-structured data and evolving schemas.
+
+---
+
+**MCQs**:
+
+1. **Which of the following are examples of key-value stores? (Multiple correct)**  
+   - A) Redis  
+   - B) MongoDB  
+   - C) Memcached  
+   - D) Riak  
+   **Answer**: **A, C, D**
+
+2. **What is the primary advantage of document databases over key-value stores?**  
+   - A) Simplicity of design  
+   - B) Support for flexible schemas and semi-structured data  
+   - C) Faster read operations  
+   - D) Guaranteed ACID compliance  
+   **Answer**: **B**
+
+3. **Which of the following use cases is most suitable for key-value stores?**  
+   - A) Caching  
+   - B) Content management  
+   - C) Managing semi-structured data  
+   - D) Complex queries  
+   **Answer**: **A**
+
+4. **What type of data structure does a document database typically resemble?**  
+   - A) Relational tables  
+   - B) JSON documents  
+   - C) Key-value pairs  
+   - D) Graphs  
+   **Answer**: **B**
+
+5. **Which database is an example of a document database?**  
+   - A) Redis  
+   - B) Couchbase  
+   - C) Memcached  
+   - D) Riak  
+   **Answer**: **B**
+
+---
+
+### **Page 18: Core NoSQL Systems II**
+
+**Summary**:  
+
+1. **Wide-Column Stores**:  
+   - **Description**: Similar to tables but more flexible, with dynamic columns varying by row.  
+   - **Ideal For**:  
+     - Large-scale analytics.  
+     - Time-series data.  
+     - Event logging.  
+   - **Examples**: Cassandra, HBase.  
+
+2. **Graph Databases**:  
+   - **Description**: Focus on nodes (data entities) and edges (connections between entities).  
+   - **Ideal For**:  
+     - Social networks.  
+     - Recommendation engines.  
+     - Fraud detection.  
+   - **Examples**: Neo4j, JanusGraph.  
+
+3. **Multimodel Databases**:  
+   - **Description**: Support multiple data models (e.g., document, key-value, graph) within one system.  
+   - **Examples**: ArangoDB, OrientDB, Cosmos DB.  
+
+**Explanation**: These NoSQL database types cater to specific use cases such as large-scale analytics, relationship modeling, and versatility across different data models.
+
+---
+
+**MCQs**:
+
+1. **What are wide-column stores ideal for? (Multiple correct)**  
+   - A) Large-scale analytics  
+   - B) Fraud detection  
+   - C) Time-series data  
+   - D) Event logging  
+   **Answer**: **A, C, D**
+
+2. **Which of the following is an example of a graph database?**  
+   - A) Cassandra  
+   - B) Neo4j  
+   - C) HBase  
+   - D) ArangoDB  
+   **Answer**: **B**
+
+3. **What is the primary focus of graph databases?**  
+   - A) Storing key-value pairs  
+   - B) Representing relationships between data entities  
+   - C) Managing large-scale analytics  
+   - D) Providing multimodel support  
+   **Answer**: **B**
+
+4. **Which database supports multiple data models within a single system?**  
+   - A) Cassandra  
+   - B) Cosmos DB  
+   - C) JanusGraph  
+   - D) Redis  
+   **Answer**: **B**
+
+5. **What differentiates wide-column stores from traditional relational databases?**  
+   - A) Rows have dynamic columns.  
+   - B) They use graph-based representations.  
+   - C) They support document-based data.  
+   - D) They are multimodel by default.  
+   **Answer**: **A**
+
+---
+### **Page 21: Sharding**
+
+**Summary**:  
+- **Definition**: Sharding involves horizontally partitioning a large database into smaller, independent pieces called "shards."  
+- **Purpose**:  
+  - **Scalability**: Handle larger data volumes and more requests.  
+  - **Availability**: Enhance system resilience by distributing data.  
+  - **Performance**: Enable faster query responses by dividing data workloads.  
+
+- **Key Elements**:  
+  1. **Sharding Key**: Determines how data is distributed across shards.  
+  2. **Sharding Function**: Maps data to specific shards.  
+  3. **Query Router**: Directs queries to the appropriate shard(s).  
+
+**Explanation**: Sharding optimizes database performance and reliability by distributing data across multiple smaller and more manageable pieces.
+
+---
+
+**MCQs**:
+
+1. **What is the primary purpose of sharding? (Multiple correct)**  
+   - A) Scalability  
+   - B) Data compression  
+   - C) Availability  
+   - D) Performance  
+   **Answer**: **A, C, D**
+
+2. **What determines the placement of data in a sharded database?**  
+   - A) Query Router  
+   - B) Sharding Key  
+   - C) Sharding Function  
+   - D) Schema Design  
+   **Answer**: **B**
+
+3. **Which element is responsible for directing queries to the correct shard?**  
+   - A) Sharding Key  
+   - B) Sharding Function  
+   - C) Query Router  
+   - D) Load Balancer  
+   **Answer**: **C**
+
+4. **What is a key benefit of sharding for database performance?**  
+   - A) It eliminates the need for indexes.  
+   - B) It reduces query processing time by partitioning data.  
+   - C) It avoids the need for backups.  
+   - D) It enforces stricter ACID compliance.  
+   **Answer**: **B**
+
+5. **Which of the following is an essential component of a sharded database system?**  
+   - A) Query Router  
+   - B) ACID transactions  
+   - C) NoSQL data model  
+   - D) Vertical scaling mechanism  
+   **Answer**: **A**
+
+---
+
