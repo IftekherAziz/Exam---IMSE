@@ -21,7 +21,7 @@
    - D) Analyze economic trends  
    **Answer**: **B**
 
-2. **Which of the following are LHC detectors? (Multiple correct)**  
+2. **Which of the following are LHC detectors?**  
    - A) ATLAS  
    - B) CMS  
    - C) LHCb  
@@ -92,7 +92,7 @@
 **Explanation**: Addressing these challenges is essential for maintaining WLCG’s functionality and efficiency.
 
 **MCQs**:  
-1. **Which of the following are challenges faced by WLCG? (Multiple correct)**  
+1. **Which of the following are challenges faced by WLCG?**  
    - A) Scalability  
    - B) Real-time processing  
    - C) Data security  
@@ -180,7 +180,7 @@ Here is the summary and MCQs for **Pages 12-18** and **Pages 20-24**:
 **Explanation**: Moving data ensures its usability, compliance, and availability across diverse applications.
 
 **MCQs**:  
-1. **Why are data moved? (Multiple correct)**  
+1. **Why are data moved?**  
    - A) To centralize analysis  
    - B) For compliance purposes  
    - C) To prevent storage issues  
@@ -206,7 +206,7 @@ Here is the summary and MCQs for **Pages 12-18** and **Pages 20-24**:
    - D) Visualize dashboards  
    **Answer**: **B**
 
-2. **Which tasks are part of a data engineer's role? (Multiple correct)**  
+2. **Which tasks are part of a data engineer's role?**  
    - A) ETL process management  
    - B) Data quality assurance  
    - C) Data visualization  
@@ -231,7 +231,7 @@ Here is the summary and MCQs for **Pages 12-18** and **Pages 20-24**:
    - D) Create models  
    **Answer**: **A**
 
-2. **Which tools are used by data analysts? (Multiple correct)**  
+2. **Which tools are used by data analysts?**  
    - A) Tableau  
    - B) Excel  
    - C) Hadoop  
@@ -279,14 +279,14 @@ Here is the summary and MCQs for **Pages 12-18** and **Pages 20-24**:
 **Explanation**: Diverse data sources and collection methods require robust strategies for effective handling.
 
 **MCQs**:  
-1. **What are the main types of data? (Multiple correct)**  
+1. **What are the main types of data?**  
    - A) Structured  
    - B) Semi-structured  
    - C) Unstructured  
    - D) Analyzed  
    **Answer**: **A, B, C**
 
-2. **Which of the following are data collection methods? (Multiple correct)**  
+2. **Which of the following are data collection methods?**  
    - A) APIs  
    - B) Streaming data  
    - C) Data visualization  
@@ -305,7 +305,7 @@ Here is the summary and MCQs for **Pages 12-18** and **Pages 20-24**:
 **Explanation**: These technologies address modern requirements by bridging relational and object-oriented paradigms.
 
 **MCQs**:  
-1. **Which of the following are database technologies? (Multiple correct)**  
+1. **Which of the following are database technologies?**  
    - A) Object-relational DBMS  
    - B) Key-value stores  
    - C) Object Query Languages  
@@ -330,7 +330,7 @@ Here is the summary and MCQs for **Pages 12-18** and **Pages 20-24**:
    - D) Storing structured data only  
    **Answer**: **B**
 
-2. **What distinguishes the "New World" of data? (Multiple correct)**  
+2. **What distinguishes the "New World" of data?**  
    - A) Complexity of data objects  
    - B) Larger scale of data  
    - C) Use of methods in objects  
@@ -355,7 +355,7 @@ Here is the summary and MCQs for **Pages 12-18** and **Pages 20-24**:
    - D) Visualization data  
    **Answer**: **B**
 
-2. **Which of the following are examples of complex data types? (Multiple correct)**  
+2. **Which of the following are examples of complex data types?**  
    - A) Arrays  
    - B) Maps  
    - C) JSON  
@@ -374,7 +374,7 @@ Here is the summary and MCQs for **Pages 12-18** and **Pages 20-24**:
 **Explanation**: Data management must evolve to handle complexity and variety.
 
 **MCQs**:  
-1. **Which type of data is increasing in use? (Multiple correct)**  
+1. **Which type of data is increasing in use?**  
    - A) Structured  
    - B) Semi-structured  
    - C) Unstructured  
@@ -410,7 +410,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - D) Focus on machine learning integration  
    **Answer**: **B**
 
-2. **Which of the following are benefits of the evolutionary approach? (Multiple correct)**  
+2. **Which of the following are benefits of the evolutionary approach?**  
    - A) Backward compatibility with SQL  
    - B) Robustness and reliability  
    - C) Complete redesign of databases  
@@ -436,7 +436,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - D) Use of relational schemas  
    **Answer**: **C**
 
-2. **Which features are supported by revolutionary databases? (Multiple correct)**  
+2. **Which features are supported by revolutionary databases?**  
    - A) Encapsulation  
    - B) Inheritance  
    - C) Polymorphism  
@@ -463,7 +463,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - D) Compatibility issues with machine learning models  
    **Answer**: **A**
 
-2. **Which of the following are challenges caused by object-relational impedance mismatch? (Multiple correct)**  
+2. **Which of the following are challenges caused by object-relational impedance mismatch?**  
    - A) Schema evolution  
    - B) Lack of inheritance support  
    - C) Difficulty in managing relationships  
@@ -487,7 +487,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - D) Optimize query performance  
    **Answer**: **B**
 
-2. **Which frameworks are examples of ORM? (Multiple correct)**  
+2. **Which frameworks are examples of ORM?**  
    - A) Hibernate  
    - B) Django ORM  
    - C) TensorFlow  
@@ -511,7 +511,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - D) Data visualization  
    **Answer**: **A**
 
-2. **What are key benefits of ORM-based access? (Multiple correct)**  
+2. **What are key benefits of ORM-based access?**  
    - A) Simplified CRUD operations  
    - B) Object-oriented model representation  
    - C) Direct use of SQL queries  
@@ -553,7 +553,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 **Explanation**: ORDBMS adapts to modern data needs by integrating object-oriented capabilities into relational systems.
 
 **MCQs**:  
-1. **What are the key features of ORDBMS? (Multiple correct)**  
+1. **What are the key features of ORDBMS?**  
    - A) Classes and inheritance  
    - B) SQL-only support  
    - C) Polymorphism  
@@ -587,7 +587,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - D) NoSQL support  
    **Answer**: **B**
 
-2. **Which databases support SQL:1999? (Multiple correct)**  
+2. **Which databases support SQL:1999?**  
    - A) Oracle  
    - B) IBM DB2  
    - C) MongoDB  
@@ -606,7 +606,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 **Explanation**: These extensions support object-oriented modeling and handling of complex data types.
 
 **MCQs**:  
-1. **Which features were introduced in SQL:1999? (Multiple correct)**  
+1. **Which features were introduced in SQL:1999?**  
    - A) Recursive queries  
    - B) User-defined types  
    - C) Polymorphism  
@@ -638,7 +638,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - D) Automate CRUD operations  
    **Answer**: **B**
 
-2. **What is an example of UDF functionality? (Multiple correct)**  
+2. **What is an example of UDF functionality?**  
    - A) Custom filtering of data  
    - B) Advanced querying  
    - C) Automating database migrations  
@@ -670,7 +670,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - D) Object Relationship  
    **Answer**: **C**
 
-2. **What does inheritance in OODBMS allow? (Multiple correct)**  
+2. **What does inheritance in OODBMS allow?**  
    - A) Reuse of structures  
    - B) Defining custom queries  
    - C) Behavioral inheritance  
@@ -684,7 +684,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - D) Lacks support for polymorphism  
    **Answer**: **B**
 
-4. **What are the advantages of OODBMS? (Multiple correct)**  
+4. **What are the advantages of OODBMS?**  
    - A) Object-oriented language integration  
    - B) Simplifies complex data modeling  
    - C) Requires no programming knowledge  
@@ -732,7 +732,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 **Explanation**: Query languages in OODBMS simplify handling complex data relationships and types.
 
 **MCQs**:
-1. **Which features are supported by query languages in OODBMS? (Multiple correct)**  
+1. **Which features are supported by query languages in OODBMS?**  
    - A) Encapsulation  
    - B) Polymorphism  
    - C) Arrays and lists  
@@ -784,7 +784,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 **Explanation**: OODBMS is well-suited for applications requiring complex object handling and relationships.
 
 **MCQs**:
-1. **Which industries commonly use OODBMS? (Multiple correct)**  
+1. **Which industries commonly use OODBMS?**  
    - A) Geographic Information Systems (GIS)  
    - B) Digital Asset Management (DAM)  
    - C) E-commerce platforms  
@@ -812,7 +812,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - D) Low-cost implementation  
    **Answer**: **A**
 
-2. **What are limitations of OODBMS? (Multiple correct)**  
+2. **What are limitations of OODBMS?**  
    - A) Steeper learning curve  
    - B) Less vendor support  
    - C) Poor complex query handling  
@@ -856,7 +856,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 **Explanation**: ORDBMS examples highlight their adaptability and wide range of applications, balancing relational and object-oriented approaches.
 
 **MCQs**:
-1. **Which of the following are examples of ORDBMS? (Multiple correct)**  
+1. **Which of the following are examples of ORDBMS?**  
    - A) PostgreSQL  
    - B) Oracle Database  
    - C) IBM DB2  
@@ -882,7 +882,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 **Explanation**: These systems cater to niche markets and specific programming languages.
 
 **MCQs**:
-1. **Which of the following are OODBMS examples? (Multiple correct)**  
+1. **Which of the following are OODBMS examples?**  
    - A) InterSystems Caché  
    - B) db4o  
    - C) ObjectDB  
@@ -973,7 +973,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 **Explanation**: Proper design considerations ensure efficient and user-friendly distributed database systems.
 
 **MCQs**:  
-1. **Which is a design consideration for distributed databases? (Multiple correct)**  
+1. **Which is a design consideration for distributed databases?**  
    - A) Latency and bandwidth  
    - B) Peer-to-peer architecture  
    - C) Data replication transparency  
@@ -1007,7 +1007,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - D) Increases manual intervention  
    **Answer**: **B**
 
-2. **Which aspects does SSI include? (Multiple correct)**  
+2. **Which aspects does SSI include?**  
    - A) Global schema  
    - B) Abstraction  
    - C) Unified interface  
@@ -1062,7 +1062,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - D) Increased system complexity  
    **Answer**: **B**
 
-2. **Which platforms benefit from transparency in distributed systems? (Multiple correct)**  
+2. **Which platforms benefit from transparency in distributed systems?**  
    - A) Amazon  
    - B) Google Drive  
    - C) Oracle DB  
@@ -1092,7 +1092,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - D) Reduced storage requirements  
    **Answer**: **B**
 
-2. **What are the types of fragmentation? (Multiple correct)**  
+2. **What are the types of fragmentation?**  
    - A) Horizontal  
    - B) Vertical  
    - C) Logical  
@@ -1118,7 +1118,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - D) Storing data redundantly  
    **Answer**: **B**
 
-2. **Which operations benefit from intra-query parallelism? (Multiple correct)**  
+2. **Which operations benefit from intra-query parallelism?**  
    - A) Scans  
    - B) Joins  
    - C) Aggregations  
@@ -1177,7 +1177,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - D) Clean, Aggregate, Transform  
    **Answer**: **B**
 
-2. **What is a core benefit of MapReduce? (Multiple correct)**  
+2. **What is a core benefit of MapReduce?**  
    - A) Fault tolerance  
    - B) Parallel processing  
    - C) High-speed local execution  
@@ -1210,7 +1210,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - D) Sequential execution  
    **Answer**: **B**
 
-2. **What are the core phases of MapReduce? (Multiple correct)**  
+2. **What are the core phases of MapReduce?**  
    - A) Extract  
    - B) Map  
    - C) Shuffle  
@@ -1231,7 +1231,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - D) Aggregate  
    **Answer**: **B**
 
-5. **What are the key advantages of MapReduce? (Multiple correct)**  
+5. **What are the key advantages of MapReduce?**  
    - A) Handles small datasets efficiently  
    - B) Parallel processing for scalability  
    - C) Fault tolerance for reliability  
@@ -1274,7 +1274,7 @@ The Hadoop Ecosystem provides an integrated framework to store, process, and ana
    - D) Data replication  
    **Answer**: **B**
 
-4. **Which of the following components are part of the Hadoop Ecosystem? (Multiple correct)**  
+4. **Which of the following components are part of the Hadoop Ecosystem?**  
    - A) Pig  
    - B) Flume  
    - C) PostgreSQL  
@@ -1302,7 +1302,7 @@ The Hadoop Ecosystem provides an integrated framework to store, process, and ana
 **Explanation**: Semi-structured data like JSON and XML combines the advantages of structured and unstructured data formats.
 
 **MCQs**:
-1. **What is a characteristic of semi-structured data? (Multiple correct)**  
+1. **What is a characteristic of semi-structured data?**  
    - A) Self-describing  
    - B) Rigid schema  
    - C) Hierarchical structure  
@@ -1339,7 +1339,7 @@ Traditional data formats, such as relational databases or CSV files, are ill-sui
    - D) Over-support for hierarchical data structures  
    **Answer**: **B**
 
-2. **Which of the following are challenges associated with traditional data formats? (Multiple correct)**  
+2. **Which of the following are challenges associated with traditional data formats?**  
    - A) Poor adaptability to hierarchical structures  
    - B) Integration difficulties with modern platforms  
    - C) Efficient handling of semi-structured data  
@@ -1374,7 +1374,7 @@ Traditional data formats, such as relational databases or CSV files, are ill-sui
    - D) Visualizations  
    **Answer**: **A**
 
-2. **What is a key factor for XML's rise in popularity? (Multiple correct)**  
+2. **What is a key factor for XML's rise in popularity?**  
    - A) Flexibility and simplicity  
    - B) Web compatibility  
    - C) Rigid schema  
@@ -1437,7 +1437,7 @@ Traditional data formats, such as relational databases or CSV files, are ill-sui
    - D) Tags are case-insensitive.  
    **Answer**: **C**
 
-3. **Which of the following are disadvantages of XML? (Multiple correct)**  
+3. **Which of the following are disadvantages of XML?**  
    - A) Redundancy due to repeated tags  
    - B) High storage efficiency  
    - C) Dependency on schemas for validation  
@@ -1481,7 +1481,7 @@ Traditional data formats, such as relational databases or CSV files, are ill-sui
    - D) It is faster than JSON.  
    **Answer**: **B**
 
-3. **Which of the following are use cases of XML? (Multiple correct)**  
+3. **Which of the following are use cases of XML?**  
    - A) Storing hierarchical documents  
    - B) Exchanging data via web services  
    - C) Representing metadata  
@@ -1558,7 +1558,7 @@ These content types allow XML to represent structured data flexibly, combining t
    - D) Combination of text and elements  
    **Answer**: **A**
 
-4. **Which type of XML content contains no sub-elements? (Multiple correct)**  
+4. **Which type of XML content contains no sub-elements?**  
    - A) Text Content  
    - B) Empty Content  
    - C) Mixed Content  
@@ -1608,7 +1608,7 @@ XML elements must follow specific naming conventions and syntactical rules to be
    - D) `<1Header>`  
    **Answer**: **A**
 
-3. **Which of the following are invalid XML element names? (Multiple correct)**  
+3. **Which of the following are invalid XML element names?**  
    - A) `<xML_book>`  
    - B) `<1Header>`  
    - C) `<Card.Info>`  
@@ -1668,7 +1668,7 @@ Attributes and text provide flexible mechanisms for annotating and storing data 
    - D) `<book title:'XML Guide'>Learn XML basics.</book>`  
    **Answer**: **C**
 
-4. **What is the role of text in an XML element? (Multiple correct)**  
+4. **What is the role of text in an XML element?**  
    - A) It represents character data within the element.  
    - B) It provides additional metadata about the element.  
    - C) It can coexist with attributes.  
@@ -1711,7 +1711,7 @@ Comments provide a way to include descriptive or explanatory text in XML files, 
    - D) `<comment>This is a comment</comment>`  
    **Answer**: **B**
 
-2. **What is not allowed within XML comments? (Multiple correct)**  
+2. **What is not allowed within XML comments?**  
    - A) `--` inside the comment  
    - B) Starting with a hyphen `-`  
    - C) Including special characters like `@`  
@@ -1844,7 +1844,7 @@ Entity references help represent reserved characters in XML, ensuring that they 
    - D) `Hello > welcome!`  
    **Answer**: **A**
 
-4. **Which of the following are valid predefined entities in XML? (Multiple correct)**  
+4. **Which of the following are valid predefined entities in XML?**  
    - A) `&lt;`  
    - B) `&copy;`  
    - C) `&quot;`  
@@ -1999,7 +1999,7 @@ Entity references help represent reserved characters in XML, ensuring that they 
 **Explanation**: DTDs are the foundational schema for XML but have limitations in modern applications.
 
 **MCQs**:
-1. **What does DTD define in XML documents? (Multiple correct)**  
+1. **What does DTD define in XML documents?**  
    - A) Elements  
    - B) Attributes  
    - C) Entities  
@@ -2071,7 +2071,7 @@ Entity references help represent reserved characters in XML, ensuring that they 
    - D) Attribute declarations  
    **Answer**: **B**
 
-2. **What is an advantage of XML Schema? (Multiple correct)**  
+2. **What is an advantage of XML Schema?**  
    - A) Custom data types  
    - B) Modular design  
    - C) Precise validation  
@@ -2172,7 +2172,7 @@ XML Schema extends the functionality of DTD with modern features like namespaces
    **Answer**: **A**  
    **Explanation**: DTD does not support namespaces, making it less versatile in modern applications.
 
-3. **Which of the following are advantages of XML Schema over DTD? (Multiple correct)**  
+3. **Which of the following are advantages of XML Schema over DTD?**  
    - A) Data type inheritance  
    - B) Precise validation  
    - C) Human readability  
@@ -2203,7 +2203,7 @@ XML Schema extends the functionality of DTD with modern features like namespaces
    - D) Validate XML schemas  
    **Answer**: **B**
 
-2. **Which of the following are key concepts of XPath? (Multiple correct)**  
+2. **Which of the following are key concepts of XPath?**  
    - A) Context Node  
    - B) Axis  
    - C) JSON Mapping  
@@ -2250,7 +2250,7 @@ XML Schema extends the functionality of DTD with modern features like namespaces
    - D) Query XML documents  
    **Answer**: **A**
 
-2. **Which formats can XSLT transform XML into? (Multiple correct)**  
+2. **Which formats can XSLT transform XML into?**  
    - A) HTML  
    - B) Plain text  
    - C) JSON  
@@ -2338,7 +2338,7 @@ XML Schema extends the functionality of DTD with modern features like namespaces
    - D) Converting HTML into JSON  
    **Answer**: **B**
 
-2. **Which formats can XSLT transform XML data into? (Multiple correct)**  
+2. **Which formats can XSLT transform XML data into?**  
    - A) HTML  
    - B) PDF  
    - C) JSON  
@@ -2383,7 +2383,7 @@ XML Schema extends the functionality of DTD with modern features like namespaces
    - D) Compressing XML documents  
    **Answer**: **B**
 
-2. **Which of the following are true about XQuery? (Multiple correct)**  
+2. **Which of the following are true about XQuery?**  
    - A) Built on XPath expressions  
    - B) Designed for querying XML data  
    - C) Supported only by relational databases  
@@ -2433,7 +2433,7 @@ XML Schema extends the functionality of DTD with modern features like namespaces
    - D) Fetch, List, Write, Optimize, Return  
    **Answer**: **B**
 
-3. **Which types of data can XQuery handle? (Multiple correct)**  
+3. **Which types of data can XQuery handle?**  
    - A) Fully structured  
    - B) Unstructured  
    - C) Semi-structured  
@@ -2477,7 +2477,7 @@ XML Schema extends the functionality of DTD with modern features like namespaces
    - D) By splitting XML files into smaller chunks  
    **Answer**: **B**
 
-3. **Which of the following are valid XQuery use cases? (Multiple correct)**  
+3. **Which of the following are valid XQuery use cases?**  
    - A) Aggregating XML data from multiple sources  
    - B) Searching text in XML documents  
    - C) Formatting XML into structured formats like HTML  
@@ -2522,14 +2522,14 @@ XML Schema extends the functionality of DTD with modern features like namespaces
    - D) Schema validation  
    **Answer**: **A**
 
-2. **Which of the following are key features of JSON? (Multiple correct)**  
+2. **Which of the following are key features of JSON?**  
    - A) Simplicity  
    - B) Language-Independent  
    - C) Verbose syntax  
    - D) Universal usage  
    **Answer**: **A, B, D**
 
-3. **Which standards define JSON? (Multiple correct)**  
+3. **Which standards define JSON?**  
    - A) ECMA-404  
    - B) RFC 8259  
    - C) XML Schema  
@@ -2570,7 +2570,7 @@ XML Schema extends the functionality of DTD with modern features like namespaces
    - D) XML schemas  
    **Answer**: **A**
 
-2. **Which of the following are valid JSON data types? (Multiple correct)**  
+2. **Which of the following are valid JSON data types?**  
    - A) String  
    - B) Tuple  
    - C) Array  
@@ -2715,7 +2715,7 @@ XML Schema extends the functionality of DTD with modern features like namespaces
    - D) SQL  
    **Answer**: **B**
 
-3. **In which scenarios is JSON preferred over XML? (Multiple correct)**  
+3. **In which scenarios is JSON preferred over XML?**  
    - A) APIs and web apps  
    - B) Lightweight data exchanges  
    - C) Complex data validation  
@@ -2763,7 +2763,7 @@ XML Schema extends the functionality of DTD with modern features like namespaces
    - D) Next Online SQL  
    **Answer**: **B**
 
-2. **Which of the following are key features of NoSQL databases? (Multiple correct)**  
+2. **Which of the following are key features of NoSQL databases?**  
    - A) Schema-free  
    - B) Relational-based operations  
    - C) BASE properties  
@@ -2809,7 +2809,7 @@ XML Schema extends the functionality of DTD with modern features like namespaces
 
 **MCQs**:
 
-1. **What is a key advantage of NoSQL over traditional SQL databases? (Multiple correct)**  
+1. **What is a key advantage of NoSQL over traditional SQL databases?**  
    - A) Faster development cycles  
    - B) More robust schema validation  
    - C) Scalability and uptime  
@@ -2876,7 +2876,7 @@ XML Schema extends the functionality of DTD with modern features like namespaces
    - D) Immediate consistency in distributed systems  
    **Answer**: **B**
 
-4. **Which of the following are examples of specialized NoSQL data models? (Multiple correct)**  
+4. **Which of the following are examples of specialized NoSQL data models?**  
    - A) Document databases  
    - B) Key-value stores  
    - C) Wide-column stores  
@@ -2917,7 +2917,7 @@ XML Schema extends the functionality of DTD with modern features like namespaces
 
 **MCQs**:
 
-1. **Which of the following are examples of key-value stores? (Multiple correct)**  
+1. **Which of the following are examples of key-value stores?**  
    - A) Redis  
    - B) MongoDB  
    - C) Memcached  
@@ -2984,7 +2984,7 @@ XML Schema extends the functionality of DTD with modern features like namespaces
 
 **MCQs**:
 
-1. **What are wide-column stores ideal for? (Multiple correct)**  
+1. **What are wide-column stores ideal for?**  
    - A) Large-scale analytics  
    - B) Fraud detection  
    - C) Time-series data  
@@ -3040,7 +3040,7 @@ XML Schema extends the functionality of DTD with modern features like namespaces
 
 **MCQs**:
 
-1. **What is the primary purpose of sharding? (Multiple correct)**  
+1. **What is the primary purpose of sharding?**  
    - A) Scalability  
    - B) Data compression  
    - C) Availability  
@@ -3074,6 +3074,958 @@ XML Schema extends the functionality of DTD with modern features like namespaces
    - C) NoSQL data model  
    - D) Vertical scaling mechanism  
    **Answer**: **A**
+
+---
+
+### **Page 22: CAP Theorem**
+
+**Summary**:  
+- **CAP Theorem**: In a distributed system, it is impossible to achieve all three of the following properties simultaneously. A system can have at most **two of the three**:  
+  1. **Consistency (C)**: Ensures every read reflects the most recent write or returns an error.  
+  2. **Availability (A)**: Guarantees every request receives a response, even if it doesn't reflect the most recent write.  
+  3. **Partition Tolerance (P)**: Allows the system to continue operating despite message loss or delay between nodes.  
+
+**Explanation**:  
+The CAP theorem highlights the trade-offs in distributed systems. Systems must prioritize two properties over the third based on their design goals and use cases.  
+
+---
+
+**MCQs**:
+
+1. **What does the CAP theorem state about distributed systems?**  
+   - A) They can achieve all three properties simultaneously.  
+   - B) They can achieve at most two of the three properties.  
+   - C) Consistency is always prioritized.  
+   - D) Availability cannot be compromised.  
+   **Answer**: **B**
+
+2. **What is the meaning of "Consistency" in the CAP theorem?**  
+   - A) Every request receives a response, even during partition failures.  
+   - B) Every read reflects the most recent write or returns an error.  
+   - C) The system continues operating despite network failures.  
+   - D) Data is replicated across all nodes.  
+   **Answer**: **B**
+
+3. **Which property of the CAP theorem allows a system to operate during network partitioning?**  
+   - A) Consistency  
+   - B) Availability  
+   - C) Partition Tolerance  
+   - D) Scalability  
+   **Answer**: **C**
+
+4. **Which of the following pairs can a distributed system prioritize according to the CAP theorem?**  
+   - A) Consistency and Availability  
+   - B) Availability and Partition Tolerance  
+   - C) Partition Tolerance and Consistency  
+   - D) Consistency, Availability, and Partition Tolerance  
+   **Answer**: **A, B, C**
+
+5. **In the context of CAP theorem, what trade-off is made in an "AP" system?**  
+   - A) Sacrifices Partition Tolerance for Availability.  
+   - B) Sacrifices Consistency for Availability and Partition Tolerance.  
+   - C) Sacrifices Availability for Consistency and Partition Tolerance.  
+   - D) Sacrifices Availability for Consistency.  
+   **Answer**: **B**
+
+---
+
+### **Page 23: Visual Guide to NoSQL Systems**
+
+**Summary**:  
+- The slide presents a triangle that maps distributed systems according to the **CAP theorem**:
+  - **CA (Consistency and Availability)**: Examples include **RDBMS (MySQL, Postgres)**, **Aster Data**, **Greenplum**, and **Vertica**. These systems prioritize consistency and availability but do not handle partition tolerance well.
+  - **AP (Availability and Partition Tolerance)**: Examples include **Cassandra**, **SimpleDB**, **CouchDB**, and **Riak**. These systems ensure high availability and partition tolerance at the cost of consistency.
+  - **CP (Consistency and Partition Tolerance)**: Examples include **MongoDB**, **Berkeley DB**, **Redis**, and **HBase**. These systems provide strong consistency and partition tolerance but sacrifice availability.  
+
+**Key Notes**:  
+- The diagram demonstrates the trade-offs in distributed system design as described by the CAP theorem: **Pick two of the three (Consistency, Availability, Partition Tolerance).**  
+- Different systems are optimized for specific use cases based on the CAP properties they prioritize.
+
+---
+
+**MCQs**:
+
+1. **Which NoSQL system focuses on Availability and Partition Tolerance (AP)?**  
+   - A) Cassandra  
+   - B) CouchDB  
+   - C) MongoDB  
+   - D) Riak  
+   **Answer**: **A, B, D**
+
+2. **What does the CAP theorem imply for distributed systems?**  
+   - A) All three properties (Consistency, Availability, Partition Tolerance) are achievable.  
+   - B) Only two of the three properties can be optimized simultaneously.  
+   - C) Partition Tolerance is always prioritized.  
+   - D) Consistency is never sacrificed.  
+   **Answer**: **B**
+
+3. **Which system is an example of prioritizing Consistency and Partition Tolerance (CP)?**  
+   - A) MongoDB  
+   - B) Cassandra  
+   - C) SimpleDB  
+   - D) Redis  
+   **Answer**: **A, D**
+
+4. **Which category of distributed systems prioritizes relational data models while optimizing Consistency and Availability (CA)?**  
+   - A) Cassandra  
+   - B) RDBMS (MySQL, Postgres)  
+   - C) MongoDB  
+   - D) CouchDB  
+   **Answer**: **B**
+
+5. **According to the CAP theorem, what is sacrificed in an AP system?**  
+   - A) Consistency  
+   - B) Availability  
+   - C) Partition Tolerance  
+   - D) Scalability  
+   **Answer**: **A**
+
+6. **What type of data model is used by Redis?**  
+   - A) Key-Value Store  
+   - B) Relational  
+   - C) Column-Oriented  
+   - D) Graph  
+   **Answer**: **A**
+
+---
+
+### **Page 24: Basically Available, Soft State, Eventual Consistency (BASE)**
+
+**Summary**:  
+- **BASE** represents an "optimistic approach" to distributed databases, prioritizing **availability** over **consistency**.
+- Contrasts with the **ACID model**, which adopts a more "pessimistic" approach to ensure strong consistency.
+- **Key Principles**:
+  1. **Basically Available**: Guarantees system availability, even if some data might be inconsistent.
+  2. **Soft State**: The system state can change over time without user interaction, allowing temporary inconsistency.
+  3. **Eventual Consistency**: Guarantees data consistency over time, though not immediately.
+- **Impact on Redundancy Management**:
+  - Simplifies managing redundant data by reducing synchronization requirements between replicas.
+  - Achieves higher availability by replicating data across multiple nodes.
+
+---
+
+**MCQs**:
+
+1. **What does BASE prioritize in distributed systems?**  
+   - A) Strong consistency  
+   - B) High availability  
+   - C) Immediate synchronization  
+   - D) Eventual consistency  
+   **Answer**: **B, D**
+
+2. **What is a key characteristic of a soft state in BASE?**  
+   - A) The system state remains consistent at all times.  
+   - B) The state may change over time without external intervention.  
+   - C) Data changes require strong synchronization.  
+   - D) No changes are allowed once written.  
+   **Answer**: **B**
+
+3. **How does BASE differ from ACID?**  
+   - A) BASE uses a pessimistic approach, while ACID is optimistic.  
+   - B) BASE prioritizes availability, while ACID prioritizes consistency.  
+   - C) BASE requires strong synchronization between replicas, while ACID does not.  
+   - D) BASE guarantees strong consistency, while ACID ensures soft states.  
+   **Answer**: **B**
+
+4. **What is the key advantage of eventual consistency in BASE?**  
+   - A) Immediate synchronization across all nodes  
+   - B) Ensures consistency over time  
+   - C) Eliminates the need for redundant copies  
+   - D) Prevents any inconsistency  
+   **Answer**: **B**
+
+5. **Which of the following simplifies redundancy management in BASE systems?**  
+   - A) Strong synchronization between replicas  
+   - B) Reduced synchronization requirements  
+   - C) Use of a pessimistic consistency model  
+   - D) Elimination of replication  
+   **Answer**: **B**
+
+---
+
+### **Page 25: Advantages of NoSQL Systems Compared to Relational DBMS**
+
+**Summary**:  
+- **Flexible Data Models**: NoSQL systems adapt to changing data structures without requiring complex schema changes, making them suitable for dynamic applications.
+- **Horizontal Scalability**: NoSQL systems allow scale-out by adding cost-effective, commodity hardware instead of upgrading existing hardware.
+- **High Performance for Specific Workloads**: Optimized for fast read and write operations, especially in key-value or denormalized data models.
+- **Developer-Friendly**: Aligns with modern development practices, reducing reliance on specialized database administrators (DBAs).
+- **Big Data Ready**: Designed to efficiently handle massive data volumes, often used in big data applications.
+- **Lower Costs**: Uses commodity hardware, leading to reduced hardware costs compared to traditional relational systems.
+
+---
+
+**MCQs**:
+
+1. **What is a key advantage of NoSQL over relational databases regarding scalability?**  
+   - A) Vertical scaling with expensive hardware  
+   - B) Horizontal scaling using commodity hardware  
+   - C) Fixed schema scaling  
+   - D) Requires specialized DBAs for scaling  
+   **Answer**: **B**
+
+2. **Why are NoSQL systems considered developer-friendly?**  
+   - A) They require strict schemas.  
+   - B) They reduce dependency on specialized DBAs.  
+   - C) They only support relational data models.  
+   - D) They limit compatibility with modern development practices.  
+   **Answer**: **B**
+
+3. **Which feature makes NoSQL suitable for big data applications?**  
+   - A) Fixed schema design  
+   - B) Support for commodity servers  
+   - C) Ability to handle massive data volumes  
+   - D) Dependence on relational data models  
+   **Answer**: **C**
+
+4. **What makes NoSQL systems cost-effective?**  
+   - A) Use of high-end hardware  
+   - B) Support for vertical scaling  
+   - C) Leverage of commodity servers  
+   - D) Dependence on specialized DBAs  
+   **Answer**: **C**
+
+5. **What type of workloads are NoSQL systems particularly optimized for?**  
+   - A) Complex transactions  
+   - B) Fast read and write operations in key-value data models  
+   - C) High consistency operations  
+   - D) Multi-relational joins  
+   **Answer**: **B**
+
+---
+
+### **Page 26: Drawbacks of NoSQL Systems Compared to Relational DBMS**
+
+**Summary**:
+- **Support & Maturity**: NoSQL systems are often open-source with varied support levels and are still maturing compared to established RDBMS.
+- **Administration**: Simplified management but still requires skilled oversight for optimal use.
+- **Expertise**: Although the NoSQL developer community is growing, expertise is less widespread than for RDBMS.
+- **Analytics & BI Focus**: While suited for operational needs, analytics and business intelligence capabilities are still evolving.
+- **Standardization & Transactions**: NoSQL lacks a single standard, and its support for complex transactions is inconsistent.
+
+---
+
+**MCQs**:
+
+1. **What is a primary drawback of NoSQL systems in terms of maturity?**  
+   - A) Limited scalability  
+   - B) Open-source nature with varied support levels  
+   - C) High costs of deployment  
+   - D) Inflexible data models  
+   **Answer**: **B**
+
+2. **Why is NoSQL considered less effective for analytics and BI compared to RDBMS?**  
+   - A) Limited scalability for large data  
+   - B) Poor schema flexibility  
+   - C) Focus on operational needs rather than analytics  
+   - D) Dependence on commodity hardware  
+   **Answer**: **C**
+
+3. **What is a challenge related to standardization in NoSQL systems?**  
+   - A) Excessive verbosity in queries  
+   - B) Lack of a single standard for implementation  
+   - C) Dependency on specialized hardware  
+   - D) Incompatibility with horizontal scaling  
+   **Answer**: **B**
+
+4. **Which aspect of NoSQL administration is a concern despite its simplicity?**  
+   - A) Requires complex query structures  
+   - B) Needs skilled oversight for effective use  
+   - C) Relies heavily on transactional models  
+   - D) Cannot handle dynamic data structures  
+   **Answer**: **B**
+
+5. **What is a key difference in expertise between NoSQL and RDBMS systems?**  
+   - A) NoSQL has a more established developer base.  
+   - B) RDBMS expertise is more widespread.  
+   - C) NoSQL is easier to manage with unskilled oversight.  
+   - D) RDBMS lacks support for complex schemas.  
+   **Answer**: **B**
+
+---
+
+### **Page 28: Key-Value Store**
+
+**Summary**:  
+A key-value store is a type of database that operates like a dictionary or hash table. It organizes data into key-value pairs, where a unique key is associated with each value. This structure allows for quick retrieval of data records using the corresponding key.
+
+---
+
+**MCQs**:
+
+1. **What is a key-value store most similar to?**  
+   - A) Relational database  
+   - B) Dictionary or hash table  
+   - C) Graph database  
+   - D) Wide-column store  
+   **Answer**: **B**
+
+2. **How does a key-value store retrieve data efficiently?**  
+   - A) By using primary keys in a relational schema  
+   - B) By scanning through all records  
+   - C) By associating a unique key to each data record  
+   - D) By using predefined graph relationships  
+   **Answer**: **C**
+
+3. **Which of the following describes the structure of a key-value store?**  
+   - A) Organized into tables with rows and columns  
+   - B) Data stored as key-value pairs  
+   - C) Nodes connected through edges  
+   - D) Document-like structures similar to JSON  
+   **Answer**: **B**
+
+4. **What is the primary advantage of a key-value store?**  
+   - A) Complex querying with SQL  
+   - B) Relationships between entities  
+   - C) Fast data retrieval using unique keys  
+   - D) Hierarchical data storage  
+   **Answer**: **C**
+
+5. **Which scenario is best suited for a key-value store?**  
+   - A) Managing interconnected relationships between data  
+   - B) Performing analytical queries  
+   - C) Storing user preferences for quick lookup  
+   - D) Maintaining a relational schema for structured data  
+   **Answer**: **C**
+
+---
+
+### **Page 29: Key-Value Store**
+
+**Summary**:  
+Key-value stores are schema-less databases that provide simple access to data using unique keys. They focus on basic operations such as `put`, `get`, and `delete` for managing data. This type of database has several advantages, including high scalability, efficient data distribution, and fault tolerance. Queries are restricted to key lookups, which simplifies the design. Additionally, key-value stores are the foundation for systems like MapReduce, emphasizing their importance in distributed systems.
+
+---
+
+**Single-Option MCQs**:
+
+1. **What is the primary operation in a key-value store?**  
+   - A) Join  
+   - B) Get  
+   - C) Aggregate  
+   - D) Sort  
+   **Answer**: **B**
+
+2. **Key-value stores are known for their:**  
+   - A) Fixed schema design  
+   - B) Flexible schema-less design  
+   - C) Hierarchical schema structure  
+   - D) Complex query language  
+   **Answer**: **B**
+
+3. **Which characteristic is an advantage of a key-value store?**  
+   - A) Poor scalability  
+   - B) Fault tolerance  
+   - C) Relational schema  
+   - D) Weak query performance  
+   **Answer**: **B**
+
+---
+
+**Multiple-Answers MCQs**:
+
+1. **Which of the following are features of key-value stores?**  
+   - A) High scalability  
+   - B) Schema-less design  
+   - C) Complex relationships between data  
+   - D) Foundation of MapReduce  
+   **Answer**: **A, B, D**
+
+2. **What are typical operations in a key-value store?**  
+   - A) Put  
+   - B) Get  
+   - C) Delete  
+   - D) Aggregate  
+   **Answer**: **A, B, C**
+
+3. **Key-value stores offer advantages such as:**  
+   - A) High scalability  
+   - B) Efficient data distribution  
+   - C) Fault tolerance  
+   - D) Support for complex joins  
+   **Answer**: **A, B, C**
+
+---
+
+### **Page 30: Key Considerations for Key-Value Stores**
+
+**Summary**:  
+Key-value stores are suitable for applications that require a simple data model, scalability, and high performance for straightforward data retrieval. They excel in scenarios needing extremely fast reads and writes. However, they are unsuitable for complex queries, relational data management, or applications requiring ACID transactions. The simplicity of their data model is an advantage but also a limitation, as they lack native support for complex queries and relationships, making them less effective for advanced data modeling.
+
+---
+
+**Single-Option MCQs**:
+
+1. **What is an advantage of key-value stores?**  
+   - A) Native support for relationships  
+   - B) Extremely fast reads and writes  
+   - C) Support for ACID transactions  
+   - D) Complex query capabilities  
+   **Answer**: **B**
+
+2. **Which scenario is unsuitable for key-value stores?**  
+   - A) High performance for simple retrievals  
+   - B) Relational data management  
+   - C) Scalability  
+   - D) Simple data models  
+   **Answer**: **B**
+
+3. **Key-value stores are primarily designed for:**  
+   - A) Complex hierarchical data  
+   - B) High-volume data with simple retrieval needs  
+   - C) Advanced data modeling  
+   - D) Relational data queries  
+   **Answer**: **B**
+
+---
+
+**Multiple-Answers MCQs**:
+
+1. **What are the advantages of key-value stores?**  
+   - A) Highly scalable  
+   - B) Support for ACID transactions  
+   - C) Extremely fast reads/writes  
+   - D) Simple data model  
+   **Answer**: **A, C, D**
+
+2. **Key-value stores are unsuitable for applications involving:**  
+   - A) Relational data management  
+   - B) Complex queries  
+   - C) Scalability  
+   - D) ACID transactions  
+   **Answer**: **A, B, D**
+
+3. **Which features define the suitability of key-value stores?**  
+   - A) Simple data model  
+   - B) Scalability  
+   - C) High performance for simple retrievals  
+   - D) Support for advanced analytics  
+   **Answer**: **A, B, C**
+
+---
+
+### **Page 31-32: Wide-Column Stores and Their Key Considerations**
+
+**Summary**:  
+
+**Wide-Column Store Overview:**
+- **Definition:** A two-dimensional key-value store with flexible schema capabilities.
+- **Flexibility:** Columns are not predefined and can vary from row to row.
+- **Key Features:** Utilizes column families to organize related data efficiently.
+
+**Suitability:**
+- Ideal for **large volumes of data** with variable schema.
+- Offers **fast reads and writes** and supports **scalability** effectively.
+
+**Unsuitability:**
+- Not well-suited for **complex transactions** or **strong consistency** across multiple operations.
+- Challenges arise with **complex data relationships**.
+
+**Advantages:**
+- Highly **flexible** in handling varied column sets.
+- Efficient for **analytics** and large-scale data processing.
+
+**Disadvantages:**
+- **Complexity** in managing schemas.
+- Less intuitive for users accustomed to relational data models.
+
+---
+
+### Single Answer MCQ
+
+**Q1:** What is a key organizational unit in wide-column stores?
+- A) Tables
+- B) Rows
+- C) Columns
+- **D) Column Families**
+
+**Correct Answer:** D) Column Families
+
+---
+
+### Multiple Answer MCQs
+
+**Q2:** Which of the following are advantages of wide-column stores?
+- **A) Highly flexible handling of varied column sets.**
+- B) Suitable for complex transactions.
+- **C) Efficient for analytics.**
+- **D) Supports fast reads and writes.**
+
+**Correct Answers:** A) Highly flexible handling of varied column sets, C) Efficient for analytics, D) Supports fast reads and writes.
+
+**Q3:** Wide-column stores are unsuitable for which of the following scenarios?
+- **A) Complex data relationships.**
+- B) Fast reads and writes.
+- **C) Strong consistency across multiple operations.**
+- **D) Complex transactions.**
+
+**Correct Answers:** A) Complex data relationships, C) Strong consistency across multiple operations, D) Complex transactions.
+
+---
+
+### **Page 33-34: Document Stores**
+
+**Summary**:  
+- **Definition**:  
+  Document stores are NoSQL databases designed for managing semi-structured data. They focus on storing data in document formats such as JSON, XML, and YAML.  
+  XML databases are a specialized subclass of document stores.
+
+- **Key Features**:  
+  - Collection of documents (similar to rows in relational databases).  
+  - Documents have unique keys for access.  
+  - Schema-free design allows for flexibility in document structure.  
+  - Access through API or query languages.  
+  - Supports MapReduce for data processing.  
+  - Does not natively support joins.  
+
+**Ideal Use Cases**:  
+  - Applications requiring flexible and semi-structured data management.  
+  - Situations where documents need to be accessed as a whole.
+
+**Explanation**:  
+Document stores enable high flexibility and ease of access for applications that rely on semi-structured data. Their schema-free nature is advantageous for evolving datasets but can lack relational features like native join support.
+
+---
+
+**MCQs**:
+
+1. **What type of data is typically stored in document stores?**  
+   - A) Highly structured relational data  
+   - B) Semi-structured data  
+   - C) Unstructured data  
+   - D) Time-series data  
+   **Answer**: **B**
+
+2. **Which of the following are popular document formats supported by document stores?**  
+   - A) JSON  
+   - B) XML  
+   - C) YAML  
+   - D) CSV  
+   **Answer**: **A, B, C**
+
+3. **Which feature is not supported directly in document stores?**  
+   - A) Schema-free design  
+   - B) MapReduce  
+   - C) Joins  
+   - D) API access  
+   **Answer**: **C**
+
+4. **How are documents accessed in document stores?**  
+   - A) Using relational keys  
+   - B) Using a unique key  
+   - C) Through schema-based queries  
+   - D) Through predefined joins  
+   **Answer**: **B**
+
+5. **Which statement is true about document stores?**  
+   - A) They are ideal for highly structured data.  
+   - B) They rely on schema definitions for data management.  
+   - C) They are designed for handling semi-structured data.  
+   - D) They are a type of relational database.  
+   **Answer**: **C**
+
+---
+
+### **Page 33-34: Key Considerations for Document Stores**
+
+**Summary**:  
+- **Suitable Scenarios**:  
+  - Flexible schema requirements.  
+  - Data encapsulated in documents.  
+  - Moderate relationship management needs.  
+
+- **Unsuitable Scenarios**:  
+  - Applications with highly relational data.  
+  - Situations requiring complex joins or multi-level transactions.  
+
+- **Advantages**:  
+  - Flexible data model adapts to varying structures.  
+  - Supports rich query capabilities for diverse use cases.  
+
+- **Disadvantages**:  
+  - Less efficient for complex queries involving multiple document relationships.  
+
+**Explanation**:  
+Document stores are ideal for applications needing flexibility and moderate relationships. However, they are not optimized for tasks requiring heavy relational operations, such as multi-level transactions or complex joins.
+
+---
+
+**MCQs**:
+
+1. **Which of the following scenarios are suitable for document stores?**  
+   - A) Applications needing flexible schemas.  
+   - B) Highly relational databases.  
+   - C) Data encapsulation in documents.  
+   - D) Multi-level transactional requirements.  
+   **Answer**: **A, C**
+
+2. **Which of the following is a disadvantage of document stores?**  
+   - A) Limited scalability.  
+   - B) Inflexible schema.  
+   - C) Inefficiency for complex queries involving relationships.  
+   - D) Lack of query capabilities.  
+   **Answer**: **C**
+
+3. **What is a major advantage of document stores over relational databases?**  
+   - A) Support for multi-level transactions.  
+   - B) Rich query capabilities for structured data.  
+   - C) Flexible schema for semi-structured data.  
+   - D) Efficiency in complex joins.  
+   **Answer**: **C**
+
+4. **Document stores are generally unsuitable for which scenario?**  
+   - A) Managing data with flexible schemas.  
+   - B) Complex multi-document relationships.  
+   - C) Storing semi-structured data.  
+   - D) Using schema-free document design.  
+   **Answer**: **B**
+
+5. **Which of the following is a characteristic of document stores?**  
+   - A) Optimized for highly relational data.  
+   - B) Supports rigid schema enforcement.  
+   - C) Enables encapsulating data in a flexible document model.  
+   - D) Focuses exclusively on transactional integrity.  
+   **Answer**: **C**
+
+---
+
+### **Page 35-38: Graph Databases and Key Considerations for Graph Databases**
+
+**Summary**:  
+- **Definition**:  
+  Graph databases use a structure of **nodes (data points)**, **edges (relationships)**, and **properties (attributes)**.  
+  They are optimized for storing and querying interconnected data efficiently, with a focus on relationships.  
+
+- **Characteristics**:  
+  - Graph-oriented approach.  
+  - Data is represented as nodes and edges, labeled for searchability.  
+  - **No global key or joins required**.  
+  - Relationships are prioritized, and the data structure supports traversal by relative positioning.  
+  - No restrictions on the number of edges or attributes per node.  
+
+- **Use Cases**:  
+  - Social networks.  
+  - Fraud detection.  
+  - Recommendation systems.  
+
+- **Suitability**:  
+  - Complex relationships and interconnected data.  
+  - Deep queries involving multiple hops.  
+  - Dynamic and evolving datasets.  
+
+- **Advantages**:  
+  - Highly optimized for relationship-based queries.  
+  - Intuitive modeling and visual representation.  
+
+- **Disadvantages**:  
+  - Less efficient for non-graph queries.  
+  - Specialized query languages increase complexity.  
+  - Higher learning curve for users.  
+
+---
+
+**MCQs**:
+
+1. **What are the components of a graph database?**  
+   - A) Nodes, Edges, Properties  
+   - B) Rows, Columns, Keys  
+   - C) Nodes, Columns, Attributes  
+   - D) Edges, Keys, Properties  
+   **Answer**: **A**
+
+2. **Which of the following is an advantage of graph databases?**  
+   - A) Optimized for relationship-based queries  
+   - B) Uses a global key for efficient joins  
+   - C) Minimal learning curve for users  
+   - D) Best suited for massive datasets without interconnectivity  
+   **Answer**: **A**
+
+3. **Graph databases are most suitable for which of the following applications?**  
+   - A) Social networks  
+   - B) Data warehousing  
+   - C) High-throughput operations on large datasets  
+   - D) Static, non-evolving data  
+   **Answer**: **A**
+
+4. **Which of the following is true about graph databases?**  
+   - A) They support unlimited edges per node.  
+   - B) They rely on global keys for joins.  
+   - C) They are optimized for static data relationships.  
+   - D) They prioritize non-connected data structures.  
+   **Answer**: **A**
+
+5. **What is a disadvantage of graph databases?**  
+   - A) Lack of support for graph queries  
+   - B) Limited scalability for dynamic data  
+   - C) Higher learning curve for specialized query languages  
+   - D) Restricted to fixed relationships between nodes  
+   **Answer**: **C**
+
+---
+
+### **Page 39-41: Multimodel Database Management Systems**
+
+**Summary**:  
+- **Definition**:  
+  - Multimodel databases support multiple data models (e.g., key-value, document, graph) within a single backend, allowing flexible data storage and queries.  
+
+- **Key Features**:  
+  - Combines different data models in one database for seamless integration.  
+  - Supports queries and transactions involving multiple models.  
+  - Common functionalities include:  
+    - Data storage, backup, and recovery.  
+    - Unified query language for querying and indexing.  
+    - ACID transactions in standalone mode.  
+    - Advanced security and model integration.  
+
+- **Advantages**:  
+  - Consolidates database management under one technology.  
+  - Avoids dependency on specific data models.  
+  - Adapts easily to changes in requirements.  
+
+- **Disadvantages**:  
+  - Management complexity due to diverse model integration.  
+  - Overhead from supporting multiple models may affect performance.  
+
+- **Suitability**:  
+  - Applications requiring diverse data types and flexible data modeling.  
+  - Ideal for scenarios needing integration across multiple data representations.  
+
+- **Unsuitability**:  
+  - Simple applications needing only one data model.  
+  - Low-complexity environments.  
+
+---
+
+**MCQs**:
+
+1. **What is a key characteristic of multimodel database systems?**  
+   - A) They only support key-value models.  
+   - B) They combine multiple data models on one backend.  
+   - C) They focus exclusively on relational data.  
+   - D) They require separate systems for each model.  
+   **Answer**: B  
+
+2. **Which of the following are common features of multimodel databases?**  
+   - A) Unified query language.  
+   - B) Data backup and recovery.  
+   - C) Limited data model support.  
+   - D) ACID transactions in standalone mode.  
+   **Answer**: A, B, D  
+
+3. **What is an advantage of multimodel database systems?**  
+   - A) Simple to manage for low-complexity applications.  
+   - B) Supports a single data model at a time.  
+   - C) Avoids dependency on specific data models.  
+   - D) Offers intuitive integration of multiple data models.  
+   **Answer**: C, D  
+
+4. **In which scenarios are multimodel database systems unsuitable?**  
+   - A) Diverse and complex data modeling.  
+   - B) Low-complexity environments.  
+   - C) Applications needing only one data model.  
+   - D) Applications requiring diverse security measures.  
+   **Answer**: B, C  
+
+5. **What is a disadvantage of multimodel databases?**  
+   - A) Overhead from supporting multiple models.  
+   - B) Lack of query flexibility.  
+   - C) Limited scalability for diverse applications.  
+   - D) No support for ACID transactions.  
+   **Answer**: A
+
+---
+
+### **Page 46-48: MongoDB**
+
+**Summary**:
+- **Description**: MongoDB is a flexible, document-oriented NoSQL database that uses JSON-like structures for data storage. It is scalable and efficient for handling diverse data types.
+- **Features**:
+  - **Schema-less**: Documented-oriented and does not enforce a fixed schema.
+  - **Highly Scalable & Flexible**: Efficient for both horizontal and vertical scaling.
+  - **Document Storage**: Manages collections of JSON-based documents (BSON format).
+  - **Editions**: Includes Community Server, Enterprise Server, and Atlas.
+  - **Language Support**: Written in C++ with API support for various programming languages.
+  - **History**: Developed in 2007 by 10gen, now MongoDB Inc.
+  - **Consistency**: Prioritizes consistency over availability.
+
+- **Drivers**:
+  - Programming languages supported include C, C++, C#, Go, Java, Kotlin, Node.js, PHP, Python, Ruby, Rust, Scala, Swift, TypeScript, Elixir, and more.
+
+---
+
+**MCQs**:
+
+1. **What type of database is MongoDB?**  
+   - A) Relational  
+   - B) Graph  
+   - C) Document-oriented  
+   - D) Key-value  
+   **Answer**: **C**
+
+2. **Which data format does MongoDB use for storing documents?**  
+   - A) XML  
+   - B) BSON  
+   - C) YAML  
+   - D) CSV  
+   **Answer**: **B**
+
+3. **Which language was MongoDB developed in?**  
+   - A) Python  
+   - B) C  
+   - C) Java  
+   - D) C++  
+   **Answer**: **D**
+
+4. **What are some drivers supported by MongoDB?**  
+   - A) Scala  
+   - B) TypeScript  
+   - C) R  
+   - D) Elixir  
+   **Answer**: **A, B, C, D**
+
+5. **Which of the following is true about MongoDB?**  
+   - A) It is schema-less.  
+   - B) It supports consistency over availability.  
+   - C) It is designed for key-value storage.  
+   - D) It supports JSON-like document structures.  
+   **Answer**: **A, B, D**
+
+6. **What year was MongoDB developed?**  
+   - A) 2005  
+   - B) 2007  
+   - C) 2010  
+   - D) 2015  
+   **Answer**: **B**
+
+---
+
+### **Page: 49-51:MongoDB Advantages and Terminology**
+
+**Summary**:  
+- **Definition**:  
+  MongoDB is a flexible, document-oriented NoSQL database that uses JSON-like structures for data storage. Known for its scalability and ability to handle diverse data types.  
+
+- **Key Features**:  
+  - Schema-less, open-source design.  
+  - Supports BSON (Binary JSON) for efficient data handling.  
+  - Provides editions such as Community Server, Enterprise Server, and Atlas.  
+  - Prioritizes consistency over availability.  
+  - Developed in 2007 by 10gen, now MongoDB Inc., and written in C++.  
+  - Offers API support for multiple programming languages.  
+
+- **Advantages**:  
+  - Schema-less design allowing dynamic data structures.  
+  - Automated sharding for horizontal scaling.  
+  - Supports MapReduce for data processing.  
+  - Facilitates replication with automated failover.  
+  - GridFS enables data replication, load balancing, and large file storage.  
+
+- **Terminology**:  
+  Comparison of RDBMS and MongoDB terms:  
+  - **Database**: Same for both.  
+  - **Table, View (RDBMS)** -> **Collection (MongoDB)**.  
+  - **Row, Tuple, Record** -> **Document**.  
+  - **Column, Attribute** -> **Field**.  
+  - **Join** -> **Embedded Document/Reference**.  
+  - **Primary Key** -> **Default key _id in MongoDB**.  
+
+**MCQs**:  
+
+1. **Which of the following is true about MongoDB?**  
+   - A) It uses a fixed schema for documents.  
+   - B) It supports BSON for efficient data handling.  
+   - C) It is focused on availability over consistency.  
+   - D) It was developed by MongoDB Inc. in 2015.  
+   **Answer**: **B**
+
+2. **Which programming language was MongoDB developed in?**  
+   - A) Java  
+   - B) Python  
+   - C) C++  
+   - D) Ruby  
+   **Answer**: **C**
+
+3. **What does MongoDB use to represent relationships instead of joins?**  
+   - A) Tables  
+   - B) Embedded Documents  
+   - C) Fields  
+   - D) Views  
+   **Answer**: **B**
+
+4. **What feature does MongoDB provide for handling large files?**  
+   - A) GridFS  
+   - B) MapReduce  
+   - C) Sharding  
+   - D) Simple Query Language  
+   **Answer**: **A**
+
+5. **Which of the following is not a key feature of MongoDB?**  
+   - A) Schema-less design  
+   - B) Supports JSON-based documents  
+   - C) ACID transactions for all operations  
+   - D) Simple Query Language  
+   **Answer**: **C**
+
+---
+
+### **Page 53 + 58 : MongoDB Advantages and Disadvantages**
+
+**Summary**:  
+
+**Advantages**:  
+- Schema-less design enabling flexibility.  
+- Automatic sharding and simple query language.  
+- MapReduce support for data aggregation.  
+- GridFS for load balancing and data replication.  
+
+**Disadvantages**:  
+- Limited transaction support.  
+- No built-in referential integrity.  
+- Eventual consistency and limited joins (using `$lookup`).  
+
+**Embed vs. Reference**:  
+- **Embedding**: Suitable for tight, one-to-few relationships where data does not change often.  
+- **Referencing**: Ideal for high update frequency and one-to-many relationships, supporting normalization.  
+
+---
+
+**MCQs**:
+
+1. **Which data storage type does MongoDB use?**  
+   - A) Table-based storage  
+   - B) Key-value pairs  
+   - C) JSON-like structures  
+   - D) Column-family storage  
+   **Answer**: **C**
+
+2. **What is a major advantage of MongoDB's schema-less design?**  
+   - A) Built-in normalization  
+   - B) Flexibility to adapt to changing data needs  
+   - C) Enforced strict schema rules  
+   - D) Guaranteed transactional consistency  
+   **Answer**: **B**
+
+3. **Which of the following features is supported by MongoDB?**  
+   - A) Eventual consistency  
+   - B) Referential integrity  
+   - C) Joins by default  
+   - D) Embedded document references  
+   **Answer**: **A, D**
+
+4. **What is GridFS in MongoDB used for?**  
+   - A) Indexing data  
+   - B) Load balancing and data replication  
+   - C) Supporting complex joins  
+   - D) Managing schemas  
+   **Answer**: **B**
+
+5. **When is referencing preferred over embedding in MongoDB?**  
+   - A) For one-to-few relationships  
+   - B) When data is tightly related  
+   - C) When data has high update frequency  
+   - D) For atomic updates  
+   **Answer**: **C**
 
 ---
 
