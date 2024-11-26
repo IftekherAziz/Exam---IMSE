@@ -134,9 +134,6 @@
    **Answer**: **B**
 
 ---
-Here is the summary and MCQs for **Pages 12-18** and **Pages 20-24**:
-
----
 
 ### **Page 12: How You Imagine Data**
 **Summary**:  
@@ -387,9 +384,6 @@ Here is the summary and MCQs for **Pages 12-18** and **Pages 20-24**:
    - C) Maps  
    - D) Relational tables  
    **Answer**: **B**
-
----
-Here is a continuation of the summary and MCQs for every Page in the document:
 
 ---
 
@@ -1494,10 +1488,6 @@ Traditional data formats, such as relational databases or CSV files, are ill-sui
    - C) Real-time messaging  
    - D) Machine learning algorithms  
    **Answer**: **A**
-
----
-
-Here is the detailed summary for **"Types of XML Content"** from the lecture:
 
 ---
 
