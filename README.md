@@ -647,32 +647,6 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 
 ---
 
-### **Object-Oriented Database Management Systems (OODBMS)**
-**Summary**:  
-- **Characteristics**:  
-  - Stores data as objects, matching programming paradigms.  
-  - Supports inheritance, encapsulation, and polymorphism.  
-- **Advantages**: Native integration with object-oriented languages.
-
-**Explanation**: OODBMS aligns databases with object-oriented programming, simplifying development workflows.
-
-**MCQs**:  
-1. **What is a characteristic of OODBMS?**  
-   - A) Stores data in tables exclusively  
-   - B) Supports inheritance and encapsulation  
-   - C) Uses only SQL for queries  
-   - D) Lacks support for polymorphism  
-   **Answer**: **B**
-
-2. **What are the advantages of OODBMS? (Multiple correct)**  
-   - A) Object-oriented language integration  
-   - B) Simplifies complex data modeling  
-   - C) Requires no programming knowledge  
-   - D) Supports encapsulation and polymorphism  
-   **Answer**: **A, B, D**
-
----
-
 ## Lecture 2: Data Engineering:
 
 ---
@@ -702,6 +676,20 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - C) Behavioral inheritance  
    - D) Storing complex objects  
    **Answer**: **A, C**
+
+3. **What is a characteristic of OODBMS?**  
+   - A) Stores data in tables exclusively  
+   - B) Supports inheritance and encapsulation  
+   - C) Uses only SQL for queries  
+   - D) Lacks support for polymorphism  
+   **Answer**: **B**
+
+4. **What are the advantages of OODBMS? (Multiple correct)**  
+   - A) Object-oriented language integration  
+   - B) Simplifies complex data modeling  
+   - C) Requires no programming knowledge  
+   - D) Supports encapsulation and polymorphism  
+   **Answer**: **A, B, D**
 
 ---
 
@@ -833,7 +821,7 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 
 ---
 
-### **Page 15: Comparison of RDBMS, ORDBMS, and OODBMS**
+### **Page 14-15: Comparison of RDBMS, ORDBMS, and OODBMS**
 **Summary**:  
 - **RDBMS**: Focus on relational data (tables).  
 - **ORDBMS**: Hybrid with object-oriented extensions.  
@@ -855,6 +843,32 @@ Here is a continuation of the summary and MCQs for every Page in the document:
    - C) Polymorphism  
    - D) Object traversal  
    **Answer**: **B**
+
+---
+### **Page 17: Popular ORDBMS**
+**Summary**:  
+- **Examples**:
+  - **PostgreSQL**: Advanced features, custom data types, and extensibility.
+  - **Oracle Database**: Widely used in enterprises, offering robust object-relational capabilities.
+  - **IBM DB2**: Strong object-relational features for large-scale systems.
+  - **Microsoft SQL Server**: Includes object-oriented extensions like user-defined types.
+
+**Explanation**: ORDBMS examples highlight their adaptability and wide range of applications, balancing relational and object-oriented approaches.
+
+**MCQs**:
+1. **Which of the following are examples of ORDBMS? (Multiple correct)**  
+   - A) PostgreSQL  
+   - B) Oracle Database  
+   - C) IBM DB2  
+   - D) MongoDB  
+   **Answer**: **A, B, C**
+
+2. **What makes PostgreSQL a popular ORDBMS?**  
+   - A) Its extensibility and custom data type support  
+   - B) Focus on unstructured data storage  
+   - C) Its niche market for small applications  
+   - D) Simplified query language compared to SQL  
+   **Answer**: **A**  
 
 ---
 
@@ -894,5 +908,249 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 
 ---
 
+### **Slide 32: Performance Metrics in Database Scalability**
+**Summary**:  
+- **Key Metrics**:
+  - **Speedup**: More hardware reduces execution time for the same task.
+  - **Scaleup**: Bigger tasks are completed in the same time with more hardware.
+  - **Throughput**: Increased clients/servers while maintaining consistent response time.
 
+**Explanation**: These metrics help evaluate the efficiency of database systems under increasing workload and resource scenarios.
 
+**MCQs**:  
+1. **What does scaleup measure in database scalability?**  
+   - A) Faster query execution  
+   - B) Handling larger tasks in the same time  
+   - C) Higher data storage capacity  
+   - D) Reduced data retrieval time  
+   **Answer**: **B**
+
+2. **Which performance metric evaluates the ability to maintain response time with increased load?**  
+   - A) Speedup  
+   - B) Scaleup  
+   - C) Throughput  
+   - D) Latency  
+   **Answer**: **C**
+
+---
+
+### **Slide 35: Distributed Database Systems - Data Replication**
+**Summary**:  
+- **Replication Types**:
+  - **Synchronous**: Strong consistency but higher latency.
+  - **Asynchronous**: Moderate consistency with lower latency.
+- **Advantages**:
+  - Improves availability, local access, and parallel execution.
+- **Challenges**:
+  - High update costs and complex concurrency management.
+
+**Explanation**: Replication ensures availability and fault tolerance but requires trade-offs in latency and consistency.
+
+**MCQs**:  
+1. **What is a key advantage of data replication?**  
+   - A) Reduced storage requirements  
+   - B) Improved local data access  
+   - C) Simplified database design  
+   - D) Lower update costs  
+   **Answer**: **B**
+
+2. **Which type of replication offers strong consistency?**  
+   - A) Synchronous  
+   - B) Asynchronous  
+   - C) Horizontal  
+   - D) Vertical  
+   **Answer**: **A**
+
+---
+
+### **Slide 36: Distributed Database Systems - Design Considerations**
+**Summary**:  
+- **Key Factors**:
+  - Network structure: Latency, bandwidth, and partitioning.
+  - Architecture: Client-server vs. peer-to-peer.
+  - Transparency: Ensures users aren’t aware of physical data locations.
+
+**Explanation**: Proper design considerations ensure efficient and user-friendly distributed database systems.
+
+**MCQs**:  
+1. **Which is a design consideration for distributed databases? (Multiple correct)**  
+   - A) Latency and bandwidth  
+   - B) Peer-to-peer architecture  
+   - C) Data replication transparency  
+   - D) Query optimization  
+   **Answer**: **A, B, C**
+
+2. **What does transparency in distributed databases mean?**  
+   - A) Users can access system details.  
+   - B) Users are unaware of data location specifics.  
+   - C) All operations are manually controlled.  
+   - D) Database complexity is exposed to developers.  
+   **Answer**: **B**
+
+---
+
+### **Slide 37: Single System Image (SSI) for Distributed Databases**
+**Summary**:  
+- Provides the appearance of a centralized system.
+- **Features**:
+  - Abstraction: Hides infrastructure complexity.
+  - Unified interface: Consistent interaction with data.
+  - Global schema: Centralized view of distributed data.
+
+**Explanation**: SSI enhances user experience by simplifying data access across distributed systems.
+
+**MCQs**:  
+1. **What is a key feature of Single System Image (SSI)?**  
+   - A) Exposes infrastructure details  
+   - B) Hides data distribution complexity  
+   - C) Requires users to know data locations  
+   - D) Increases manual intervention  
+   **Answer**: **B**
+
+2. **Which aspects does SSI include? (Multiple correct)**  
+   - A) Global schema  
+   - B) Abstraction  
+   - C) Unified interface  
+   - D) Physical hardware visibility  
+   **Answer**: **A, B, C**
+
+---
+
+### **Slide 38: Transparency in Distributed Systems**
+**Summary**:  
+- **Types of Transparency**:
+  - **Replication**: Users don’t need to manage replicated data.  
+  - **Fragmentation**: Users are unaware of how data is partitioned.  
+  - **Location**: Physical location of data is hidden.
+
+**Explanation**: Transparency simplifies user interaction with distributed databases by hiding complexity.
+
+**MCQs**:  
+1. **Which type of transparency hides the physical location of data?**  
+   - A) Replication  
+   - B) Fragmentation  
+   - C) Location  
+   - D) Schema  
+   **Answer**: **C**
+
+2. **What does replication transparency ensure?**  
+   - A) Users know the replicated data’s location  
+   - B) Users are unaware of replication management  
+   - C) Users handle data synchronization  
+   - D) Users design replication schemes  
+   **Answer**: **B**
+
+---
+
+### **Slide 39: Benefits of Transparency in Distributed Systems**
+**Summary**:  
+- **Advantages**:
+  - Easier application development.
+  - Simplifies data management with unified interfaces.
+  - Improves scalability and fault tolerance.
+- **Examples**:
+  - E-commerce platforms (e.g., Amazon, eBay).
+  - Cloud storage (e.g., Dropbox, Google Drive).
+
+**Explanation**: Transparency benefits developers and users by hiding complex system details, enabling smoother operation.
+
+**MCQs**:  
+1. **Which benefit does transparency in distributed systems offer?**  
+   - A) Manual fault management  
+   - B) Simplified data management  
+   - C) Reduced data replication  
+   - D) Increased system complexity  
+   **Answer**: **B**
+
+2. **Which platforms benefit from transparency in distributed systems? (Multiple correct)**  
+   - A) Amazon  
+   - B) Google Drive  
+   - C) Oracle DB  
+   - D) Dropbox  
+   **Answer**: **A, B, D**
+
+---
+
+### **Slide 40: Distributed Database Systems - Fragmentation**
+**Summary**:  
+- **Types**:
+  - **Horizontal**: Rows distributed across sites.
+  - **Vertical**: Columns distributed across sites.
+  - **Full Replication**: Every site stores the entire database.
+- **Advantages**:
+  - Fast local access and parallel execution.
+- **Challenges**:
+  - High de-fragmentation costs.
+
+**Explanation**: Fragmentation ensures efficient access and processing but comes with maintenance overhead.
+
+**MCQs**:  
+1. **What is an advantage of fragmentation in distributed databases?**  
+   - A) Simplified query design  
+   - B) Faster local access  
+   - C) Easier data integration  
+   - D) Reduced storage requirements  
+   **Answer**: **B**
+
+2. **What are the types of fragmentation? (Multiple correct)**  
+   - A) Horizontal  
+   - B) Vertical  
+   - C) Logical  
+   - D) Full replication  
+   **Answer**: **A, B, D**
+
+---
+
+### **Slide 43: Exploring Parallelism in Databases**
+**Summary**:  
+- **Intra-Query Parallelism**:
+  - Divides a single query into subtasks (e.g., scans, joins).
+- **Inter-Query Parallelism**:
+  - Distributes query tasks across multiple servers.
+
+**Explanation**: Parallelism improves performance by leveraging multi-core CPUs and distributed resources.
+
+**MCQs**:  
+1. **What is intra-query parallelism?**  
+   - A) Distributing tasks across multiple servers  
+   - B) Dividing a single query into subtasks  
+   - C) Running queries in sequence  
+   - D) Storing data redundantly  
+   **Answer**: **B**
+
+2. **Which operations benefit from intra-query parallelism? (Multiple correct)**  
+   - A) Scans  
+   - B) Joins  
+   - C) Aggregations  
+   - D) Fragmentation  
+   **Answer**: **A, B, C**
+
+---
+
+### **Slide 45: Distributed vs. Parallel Databases**
+**Summary**:  
+- **Parallel Databases**:
+  - Nodes are close geographically.
+  - Focuses on performance and scalability.
+- **Distributed Databases**:
+  - Nodes spread geographically.
+  - Focuses on data sharing and availability.
+
+**Explanation**: Parallel databases prioritize performance, while distributed databases ensure availability across locations.
+
+**MCQs**:  
+1. **What is a key focus of distributed databases?**  
+   - A) High-speed local transactions  
+   - B) Data sharing and availability  
+   - C) Reduced latency within a data center  
+   - D) Simplified consistency guarantees  
+   **Answer**: **B**
+
+2. **Which characteristic is typical of parallel databases?**  
+   - A) Geographically spread nodes  
+   - B) Utilization of high-speed local networks  
+   - C) Autonomous node management  
+   - D) Low cost for global transactions  
+   **Answer**: **B**
+
+---
