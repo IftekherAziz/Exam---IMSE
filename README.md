@@ -1624,6 +1624,242 @@ XML elements must follow specific naming conventions and syntactical rules to be
 
 --- 
 
+### **Page 31: Attributes and Text**
+
+**Summary**:
+- **Attributes**:
+  - Provide additional information about elements.
+  - Always specified as key-value pairs: `<element attribute="value">`.
+  - Enclosed in double or single quotes.
+  - Must appear within the start tag of an element.
+
+- **Text**:
+  - Contains character data (CDATA) or parsed text.
+  - Can coexist with attributes in an element.
+  - Example: `<book title="XML Guide">Learn XML basics.</book>`  
+    - **Attributes**: `title="XML Guide"`
+    - **Text**: `Learn XML basics.`
+
+**Explanation**:  
+Attributes and text provide flexible mechanisms for annotating and storing data within elements, enriching XML’s expressiveness.
+
+---
+
+### **MCQs**:
+
+1. **What is the correct format for an attribute in XML?**  
+   - A) `<element key:value>`  
+   - B) `<element "key=value">`  
+   - C) `<element key="value">`  
+   - D) `<element key=value>`  
+   **Answer**: **C**
+
+2. **Where are attributes in XML defined?**  
+   - A) Within the start tag of an element  
+   - B) Inside the element’s content  
+   - C) After the end tag of an element  
+   - D) Before the declaration of the root element  
+   **Answer**: **A**
+
+3. **Which of the following is an example of valid XML with both attributes and text?**  
+   - A) `<book title=XML Guide>Learn XML basics.</book>`  
+   - B) `<book "title"="XML Guide">Learn XML basics.</book>`  
+   - C) `<book title="XML Guide">Learn XML basics.</book>`  
+   - D) `<book title:'XML Guide'>Learn XML basics.</book>`  
+   **Answer**: **C**
+
+4. **What is the role of text in an XML element? (Multiple correct)**  
+   - A) It represents character data within the element.  
+   - B) It provides additional metadata about the element.  
+   - C) It can coexist with attributes.  
+   - D) It defines the structure of the element.  
+   **Answer**: **A, C**
+
+5. **Which of the following statements about XML attributes is false?**  
+   - A) They must be enclosed in quotes.  
+   - B) They appear within the start tag.  
+   - C) They can replace text content in an element.  
+   - D) They can be written without a key-value pair.  
+   **Answer**: **D**
+
+---
+
+### **Page 32: Comments**
+**Summary**:
+- **Purpose**: XML comments are used to add notes or explanations within the XML file without affecting its content or structure.
+- **Syntax**:
+  - Comments must start with `<!--` and end with `-->`.
+  - Example:  
+    ```xml
+    <!-- This is a comment -->
+    ```
+- **Rules**:
+  - Comments cannot contain `--` within the comment text.
+  - Comments cannot start with a hyphen `-`.
+  - Comments are ignored by the XML parser.
+
+**Explanation**:  
+Comments provide a way to include descriptive or explanatory text in XML files, helping developers understand the structure or purpose of the document without affecting its execution.
+
+---
+
+### **MCQs**:
+1. **What is the correct syntax for an XML comment?**  
+   - A) `// This is a comment`  
+   - B) `<!-- This is a comment -->`  
+   - C) `/* This is a comment */`  
+   - D) `<comment>This is a comment</comment>`  
+   **Answer**: **B**
+
+2. **What is not allowed within XML comments? (Multiple correct)**  
+   - A) `--` inside the comment  
+   - B) Starting with a hyphen `-`  
+   - C) Including special characters like `@`  
+   - D) Having nested comments  
+   **Answer**: **A, B, D**
+
+3. **What is the primary purpose of XML comments?**  
+   - A) To define metadata  
+   - B) To describe or explain the XML document  
+   - C) To store data  
+   - D) To act as placeholders for attributes  
+   **Answer**: **B**
+
+4. **Which of the following is an invalid XML comment?**  
+   - A) `<!-- Valid comment -->`  
+   - B) `<!-- -Invalid comment -->`  
+   - C) `<!-- Comment with -- inside -->`  
+   - D) `<!-- Another valid comment -->`  
+   **Answer**: **B, C**
+
+--- 
+
+### **Page 33: Processing Instructions (PIs)**
+**Summary**:
+- **Definition**: Processing instructions (PIs) provide additional instructions to applications processing the XML document.
+- **Structure**:
+  - Begin with `<?` and end with `?>`.
+  - Include a **target** (the application intended to process the instruction) and optional **data**.
+- **Usage**:
+  - Used to pass metadata or configuration information for processing tools.
+  - Example:  
+    ```xml
+    <?xml-stylesheet type="text/css" href="style.css"?>
+    ```
+- **Rules**:
+  - Targets must not begin with "xml" (case-insensitive) to avoid conflicts with XML's reserved keywords.
+  - Instructions are ignored by parsers that don't recognize the target.
+
+**Explanation**:  
+Processing instructions add flexibility to XML documents by allowing additional instructions specific to the processing context without affecting the document's structure.
+
+---
+
+### **MCQs**:
+1. **What is the purpose of processing instructions (PIs) in XML?**  
+   - A) Add extra elements to the document  
+   - B) Provide instructions to the XML parser  
+   - C) Pass metadata or configuration to processing tools  
+   - D) Specify default styles for elements  
+   **Answer**: **C**
+
+2. **How do processing instructions begin and end?**  
+   - A) With `<PI>` and `</PI>`  
+   - B) With `<?` and `?>`  
+   - C) With `<start>` and `</end>`  
+   - D) With `{` and `}`  
+   **Answer**: **B**
+
+3. **Which of the following is a valid processing instruction?**  
+   - A) `<?xml-stylesheet type="text/css" href="style.css"?>`  
+   - B) `<?1header type="text/css"?>`  
+   - C) `<?xml-data?>`  
+   - D) `<PI type="text/css">`  
+   **Answer**: **A**
+
+4. **What is a restriction on processing instruction targets?**  
+   - A) Targets must include numbers.  
+   - B) Targets cannot begin with "xml".  
+   - C) Targets must be enclosed in brackets.  
+   - D) Targets cannot include text data.  
+   **Answer**: **B**
+
+5. **What happens if a parser does not recognize the target of a processing instruction?**  
+   - A) It ignores the instruction.  
+   - B) It throws an error.  
+   - C) It stops processing the document.  
+   - D) It treats it as a comment.  
+   **Answer**: **A**
+
+---
+
+### **Page 35: Entity References**
+**Summary**:
+- **Definition**: Entity references are used in XML to define and insert special characters or reserved symbols.  
+- **Usage**:
+  - Represent characters that are otherwise reserved in XML, such as `<`, `>`, `&`, `'`, and `"`.
+  - Can be predefined or user-defined.
+- **Types**:
+  - **Predefined Entities**:
+    - `&lt;` → `<`
+    - `&gt;` → `>`
+    - `&amp;` → `&`
+    - `&apos;` → `'`
+    - `&quot;` → `"`
+  - **Custom Entities**:
+    - Defined in the document's DTD (Document Type Definition).  
+    - Example:  
+      ```xml
+      <!ENTITY copyright "© 2024">
+      <note>&copyright; All rights reserved.</note>
+      ```
+      
+**Explanation**:  
+Entity references help represent reserved characters in XML, ensuring that they do not conflict with XML syntax.
+
+---
+
+### **MCQs**:
+1. **What is the purpose of entity references in XML?**  
+   - A) To store binary data in XML files.  
+   - B) To define and use reserved characters in XML syntax.  
+   - C) To add comments to XML files.  
+   - D) To optimize XML file size.  
+   **Answer**: **B**
+
+2. **Which of the following is a predefined entity for `>`?**  
+   - A) `&gt;`  
+   - B) `&lt;`  
+   - C) `&amp;`  
+   - D) `&apos;`  
+   **Answer**: **A**
+
+3. **What is the output of the following XML snippet?**  
+   ```xml
+   <message>Hello &amp; welcome!</message>
+   ```  
+   - A) `Hello & welcome!`  
+   - B) `Hello and welcome!`  
+   - C) `Hello &amp; welcome!`  
+   - D) `Hello > welcome!`  
+   **Answer**: **A**
+
+4. **Which of the following are valid predefined entities in XML? (Multiple correct)**  
+   - A) `&lt;`  
+   - B) `&copy;`  
+   - C) `&quot;`  
+   - D) `&apos;`  
+   **Answer**: **A, C, D**
+
+5. **How can you define a custom entity in XML?**  
+   - A) Using the `<entity>` tag.  
+   - B) Declaring it in the DTD using `<!ENTITY ...>`.  
+   - C) Defining it with the `&define;` syntax.  
+   - D) By directly embedding it in the document.  
+   **Answer**: **B**
+
+---
+
 ### **Page 36: Namespaces in XML**
 **Summary**:
 - Ensures unique identification of elements.
@@ -1648,6 +1884,80 @@ XML elements must follow specific naming conventions and syntactical rules to be
    **Answer**: **B**
 
 ---
+
+### **Page 37: Example Without Namespaces**
+**Summary**:  
+- **Issue**: When multiple XML documents with the same element names are merged, conflicts occur.  
+- Example:  
+  ```xml
+  <note>
+      <to>John</to>
+      <from>Mary</from>
+      <message>Hello!</message>
+  </note>
+  ```
+- **Limitation**: No unique identifiers for elements, causing ambiguity in multi-source XML processing.
+
+**Explanation**: Without namespaces, XML elements from different contexts cannot be uniquely identified, leading to conflicts during data integration.
+
+**MCQs**:  
+1. **What is a limitation of XML documents without namespaces?**  
+   - A) Complex parsing  
+   - B) Ambiguity in element identification  
+   - C) Lack of support for attributes  
+   - D) Rigid schemas  
+   **Answer**: **B**
+
+2. **What happens when multiple XML documents with the same element names are merged without namespaces?**  
+   - A) Elements are ignored  
+   - B) Element names conflict  
+   - C) Parsing becomes faster  
+   - D) No issues occur  
+   **Answer**: **B**
+
+---
+
+### **Page 38: Example With Namespaces**
+**Summary**:  
+- **Solution**: Namespaces prevent conflicts by uniquely qualifying element names.  
+- Example:  
+  ```xml
+  <note xmlns:personal="http://personal.example.com" xmlns:office="http://office.example.com">
+      <personal:to>John</personal:to>
+      <office:from>Mary</office:from>
+      <message>Hello!</message>
+  </note>
+  ```
+- **Key Features**:  
+  - `xmlns` defines namespaces.  
+  - Prefixes like `personal` and `office` distinguish elements.  
+
+**Explanation**: Namespaces allow XML documents to integrate multiple sources while maintaining unique element identification.
+
+**MCQs**:  
+1. **What does the `xmlns` attribute define in XML?**  
+   - A) Document type  
+   - B) XML Schema  
+   - C) XML namespace  
+   - D) XML formatting  
+   **Answer**: **C**
+
+2. **How do namespaces prevent conflicts in XML documents?**  
+   - A) By ignoring duplicate elements  
+   - B) By qualifying element names uniquely with prefixes  
+   - C) By simplifying the structure of XML documents  
+   - D) By removing attribute values  
+   **Answer**: **B**
+
+3. **In the example `<personal:to>` and `<office:from>`, what do `personal` and `office` represent?**  
+   - A) Root elements  
+   - B) Schema definitions  
+   - C) Namespace prefixes  
+   - D) XML attributes  
+   **Answer**: **C**
+
+--- 
+
 
 ### **Page 39: XML Syntax**
 **Summary**:
@@ -1705,6 +2015,43 @@ XML elements must follow specific naming conventions and syntactical rules to be
 
 ---
 
+### **Page 46: DTD Example I**
+**Summary**:  
+- **Example DTD Definition**:
+  ```xml
+  <!DOCTYPE note [
+    <!ELEMENT note (to, from, heading, body)>
+    <!ELEMENT to (#PCDATA)>
+    <!ELEMENT from (#PCDATA)>
+    <!ELEMENT heading (#PCDATA)>
+    <!ELEMENT body (#PCDATA)>
+  ]>
+  ```
+  - Defines the structure of an XML document named "note."
+  - Specifies that `note` contains four child elements: `to`, `from`, `heading`, and `body`.  
+  - Each child element is defined as `#PCDATA` (parsed character data).
+
+**Explanation**: This example demonstrates how a DTD defines the allowed structure and elements in an XML document.
+
+**MCQs**:
+1. **What does `<!ELEMENT to (#PCDATA)>` indicate?**  
+   - A) The element `to` contains other elements.  
+   - B) The element `to` contains parsed character data.  
+   - C) The element `to` is empty.  
+   - D) The element `to` has attributes.  
+   **Answer**: **B**
+
+2. **What is the parent element in this DTD example?**  
+   - A) to  
+   - B) from  
+   - C) heading  
+   - D) note  
+   **Answer**: **D**
+
+---
+
+
+
 ### **Page 48: XML Schema**
 **Summary**:
 - Richer and more powerful than DTD.
@@ -1733,25 +2080,144 @@ XML elements must follow specific naming conventions and syntactical rules to be
 
 ---
 
-### **Page 55: XPath Overview**
-**Summary**:
-- **Definition**: Language for navigating XML elements and attributes.
-- **Key Features**:
-  - Axis for relationships (parent, sibling).
-  - Predicates for filtering results.
-  - Node selection via paths.
+### **Page 49: XSD Validation Example**
+This example demonstrates XML validation using an XSD (XML Schema Definition). Upon reviewing the provided XML snippet, the following issues can be identified:
 
-**Explanation**: XPath allows detailed and flexible navigation within XML documents.
+---
 
-**MCQs**:
-1. **What is XPath used for?**  
-   - A) Transforming XML documents  
-   - B) Navigating XML elements and attributes  
-   - C) Defining XML schemas  
-   - D) Compressing XML files  
+### **Error**
+1. **Typo in the `<firstname>` Element**:
+   - The `<firstname>` value is incorrectly written as `F. Scrott`. It should be corrected to `F. Scott`.
+   - This is likely a semantic issue rather than a structural one.
+
+2. **Potential Schema Validation Issue**:
+   - If the `birthdate` element is required to follow a specific format (e.g., `YYYY-MM-DD`), the value `1896` will fail validation. It should be formatted as `1896-01-01` or another valid date format defined in the XSD.
+
+---
+
+### **Explanation**
+- The typo in `<firstname>` does not break the XML structure but fails to represent accurate data.
+- The `birthdate` format may conflict with XSD rules if the XSD enforces a stricter date pattern.
+
+---
+
+### **MCQs Based on This Example**
+1. **What is the semantic error in this XML example?**  
+   - A) Missing `<birthdate>` element  
+   - B) Incorrect value in `<firstname>`  
+   - C) Incorrect `id` attribute format  
+   - D) Improper XML encoding declaration  
    **Answer**: **B**
 
-2. **What does the XPath `//@id` select?**  
+2. **What might cause an XSD validation error for the `<birthdate>` element?**  
+   - A) Missing the element entirely  
+   - B) Format does not match `YYYY-MM-DD`  
+   - C) Duplicate element declarations  
+   - D) The element value is too short  
+   **Answer**: **B**
+
+3. **What does the attribute `xsi:noNamespaceSchemaLocation` specify?**  
+   - A) The name of the XML document  
+   - B) The location of the XSD file for validation  
+   - C) The structure of the XML elements  
+   - D) The namespace of the document  
+   **Answer**: **B**
+
+---
+
+### **Page 50: DTD vs. XML Schema**
+
+**Summary**:  
+- **Document Type Definition (DTD)**:  
+  - Defines structure and element relationships in XML.  
+  - Limited to string data types.  
+  - Lacks namespace support.  
+
+- **XML Schema**:  
+  - Richer, more powerful schema language for XML.  
+  - **Supports**:
+    - Namespaces.
+    - Custom and complex data types (e.g., integers, dates).  
+    - Data type inheritance.  
+  - Modular design allows reuse and extensibility.
+
+**Key Differences**:  
+| **Feature**         | **DTD**              | **XML Schema**             |
+|----------------------|----------------------|----------------------------|
+| **Data Types**       | Strings only         | Supports custom/complex types |
+| **Namespaces**       | Not supported        | Fully supported            |
+| **Modularity**       | Limited              | Highly modular             |
+| **Validation**       | Basic                | Precise                    |
+
+**Explanation**:  
+XML Schema extends the functionality of DTD with modern features like namespaces, precise data validation, and support for custom data types, making it more suitable for contemporary applications.
+
+---
+
+**MCQs**:
+
+1. **Which feature is supported by XML Schema but not by DTD?**  
+   - A) Namespace support  
+   - B) Modular design  
+   - C) String data types  
+   - D) Custom data types  
+   **Answer**: **A, B, D**  
+   **Explanation**: XML Schema supports namespaces, custom data types, and modular design, while DTD is limited to basic validation and strings.
+
+2. **What is a key limitation of DTD compared to XML Schema?**  
+   - A) No support for namespaces  
+   - B) Cannot define attributes  
+   - C) Lacks element declarations  
+   - D) Requires external tools for parsing  
+   **Answer**: **A**  
+   **Explanation**: DTD does not support namespaces, making it less versatile in modern applications.
+
+3. **Which of the following are advantages of XML Schema over DTD? (Multiple correct)**  
+   - A) Data type inheritance  
+   - B) Precise validation  
+   - C) Human readability  
+   - D) Integration with JSON  
+   **Answer**: **A, B**  
+   **Explanation**: XML Schema supports advanced features like data type inheritance and precise validation, improving its usability for complex documents.
+
+---
+
+### **Page 54: XPath Overview**
+**Summary**:  
+- **Definition**: XPath is a language used to navigate through elements and attributes in an XML document.  
+- **Key Concepts**:
+  - **Context Node**: The starting point for navigation.
+  - **Axis**: Specifies the relationship between nodes, such as parent, child, sibling, etc.
+  - **Predicates**: Used to refine node selection further by applying filters.
+
+**Explanation**: XPath simplifies XML navigation by providing structured paths to access elements, attributes, and their relationships.
+
+---
+
+**MCQs**:  
+
+1. **What is the primary purpose of XPath?**  
+   - A) Transform XML documents  
+   - B) Navigate through elements and attributes in XML  
+   - C) Compress XML files  
+   - D) Validate XML schemas  
+   **Answer**: **B**
+
+2. **Which of the following are key concepts of XPath? (Multiple correct)**  
+   - A) Context Node  
+   - B) Axis  
+   - C) JSON Mapping  
+   - D) Predicates  
+   **Answer**: **A, B, D**
+
+3. **What does the term "axis" in XPath represent?**  
+   - A) A node’s relative position in the document  
+   - B) The direct path from one element to another  
+   - C) A set of rules for document validation  
+   - D) A method for compressing XML  
+   **Answer**: **B**
+
+4. **What does the XPath `//@id` select?**  
    - A) All nodes  
    - B) All attributes named 'id'  
    - C) Root nodes only  
@@ -1760,4 +2226,274 @@ XML elements must follow specific naming conventions and syntactical rules to be
 
 ---
 
-This covers the entire lecture. Let me know if you’d like to refine or expand further!
+### **Page 62: eXtensible Stylesheet Language Transformations (XSLT)**
+
+**Summary**:  
+- **Purpose**:
+  - Transforms XML documents into other formats such as XML, HTML, or plain text.
+  - Facilitates the separation of content and presentation.  
+- **Features**:
+  - Uses XSLT stylesheets to define transformation rules.  
+  - Operates as a **template engine**, matching patterns in the source XML.  
+  - Written in XML, making it interoperable with other XML technologies.
+
+**Explanation**: XSLT is a versatile tool for transforming XML documents into various formats, allowing customization and separation of data representation from logic.
+
+---
+
+**MCQs**:
+
+1. **What is the primary purpose of XSLT?**  
+   - A) Transform XML documents into various formats  
+   - B) Compress XML files  
+   - C) Validate XML schema  
+   - D) Query XML documents  
+   **Answer**: **A**
+
+2. **Which formats can XSLT transform XML into? (Multiple correct)**  
+   - A) HTML  
+   - B) Plain text  
+   - C) JSON  
+   - D) XML  
+   **Answer**: **A, B, D**
+
+3. **What is used to define transformation rules in XSLT?**  
+   - A) XPath queries  
+   - B) XSLT stylesheets  
+   - C) XML Schema  
+   - D) SOAP protocols  
+   **Answer**: **B**
+
+4. **How does XSLT operate as a transformation tool?**  
+   - A) By compressing XML data  
+   - B) As a template engine matching patterns in XML  
+   - C) By manually editing XML content  
+   - D) By converting XML into JSON directly  
+   **Answer**: **B**
+
+---
+
+### **Page 63: XSLT Key Components**
+
+**Summary**:  
+- **Key XSLT Elements**:  
+  1. **`<xsl:template>`**: Defines rules to apply when a specific XML node is matched.  
+  2. **`<xsl:value-of>`**: Extracts and outputs the value of a selected XML node.  
+  3. **`<xsl:for-each>`**: Iterates over a set of nodes, applying the same rules or transformations.  
+  4. **`<xsl:if>` or `<xsl:choose>`**: Enables conditional processing, applying different rules based on specific conditions.
+
+**Explanation**: These components form the building blocks of XSLT, enabling flexible and powerful XML transformations.
+
+---
+
+**MCQs**:
+
+1. **Which XSLT element is used to define rules for matching specific XML nodes?**  
+   - A) `<xsl:value-of>`  
+   - B) `<xsl:template>`  
+   - C) `<xsl:for-each>`  
+   - D) `<xsl:if>`  
+   **Answer**: **B**
+
+2. **What is the role of `<xsl:value-of>` in XSLT?**  
+   - A) To apply rules to matched nodes  
+   - B) To iterate over node sets  
+   - C) To extract the value of a selected node  
+   - D) To define conditional processing  
+   **Answer**: **C**
+
+3. **Which element in XSLT is used for iterating over multiple XML nodes?**  
+   - A) `<xsl:if>`  
+   - B) `<xsl:for-each>`  
+   - C) `<xsl:choose>`  
+   - D) `<xsl:template>`  
+   **Answer**: **B**
+
+4. **What are `<xsl:if>` and `<xsl:choose>` used for?**  
+   - A) Conditional processing in XSLT transformations  
+   - B) Iterating through nodes  
+   - C) Extracting values from nodes  
+   - D) Defining template rules  
+   **Answer**: **A**
+
+---
+### **Page 64: XSLT Use Cases**
+
+**Summary**:  
+- **Key Use Cases**:
+  1. **Generating dynamic web pages**: Transform XML data into HTML for web applications.  
+  2. **Converting XML to document formats**: Transform XML data into PDFs or other formats for reporting or documentation.  
+  3. **Migrating data**: Facilitates data migration between databases by transforming XML structures.
+
+**Explanation**: XSLT is versatile and widely used for web development, document generation, and database integration by leveraging its ability to transform XML data.
+
+---
+
+**MCQs**:
+
+1. **What is one of the key use cases of XSLT?**  
+   - A) Compressing XML files  
+   - B) Generating dynamic web pages from XML data  
+   - C) Querying XML data  
+   - D) Converting HTML into JSON  
+   **Answer**: **B**
+
+2. **Which formats can XSLT transform XML data into? (Multiple correct)**  
+   - A) HTML  
+   - B) PDF  
+   - C) JSON  
+   - D) Plain text  
+   **Answer**: **A, B, D**
+
+3. **How is XSLT used in database migration?**  
+   - A) By visualizing database structures  
+   - B) By transforming XML data between different database formats  
+   - C) By querying and compressing XML data  
+   - D) By directly moving rows of data  
+   **Answer**: **B**
+
+4. **Which of the following are applications of XSLT in document handling?**  
+   - A) Generating static HTML pages  
+   - B) Converting XML to PDF  
+   - C) Querying relational data  
+   - D) Formatting XML into other document structures  
+   **Answer**: **B, D**
+
+---
+
+### **Page 65: XQuery**
+
+**Summary**:  
+- **Definition**: XQuery is to XML what SQL is to relational databases. It is a language designed specifically for querying and manipulating XML data.  
+- **Key Features**:
+  - Built on **XPath expressions** for navigating XML structures.  
+  - Supported by all major XML-compatible databases.  
+  - Recognized as a **W3C recommendation**, ensuring standardization and broad adoption.  
+
+**Explanation**: XQuery enables efficient querying, extraction, and transformation of data stored in XML documents, similar to how SQL works for relational databases.
+
+---
+
+**MCQs**:
+
+1. **What is XQuery primarily used for?**  
+   - A) Transforming XML into HTML  
+   - B) Querying and manipulating XML data  
+   - C) Validating XML schemas  
+   - D) Compressing XML documents  
+   **Answer**: **B**
+
+2. **Which of the following are true about XQuery? (Multiple correct)**  
+   - A) Built on XPath expressions  
+   - B) Designed for querying XML data  
+   - C) Supported only by relational databases  
+   - D) W3C recommended standard  
+   **Answer**: **A, B, D**
+
+3. **How is XQuery similar to SQL?**  
+   - A) Both are used for transforming XML data  
+   - B) Both query hierarchical data exclusively  
+   - C) Both are used for querying structured data formats  
+   - D) Both require XML compatibility for execution  
+   **Answer**: **C**
+
+4. **What is XQuery built on?**  
+   - A) SOAP protocols  
+   - B) XPath expressions  
+   - C) JSON schemas  
+   - D) XSLT templates  
+   **Answer**: **B**
+
+---
+
+### **Page 66: XQuery Key Features**
+
+**Summary**:  
+- **Functional**: XQuery is built on functional programming principles, enabling declarative and efficient querying.  
+- **Rich Expressions**: Includes FLWOR expressions (**For, Let, Where, Order by, Return**) for complex data manipulation.  
+- **Versatile**: Capable of querying fully structured, unstructured, or semi-structured data, making it suitable for diverse XML data formats.
+
+**Explanation**: XQuery’s functional programming foundation and rich syntax (e.g., FLWOR) make it versatile for handling different types of data.
+
+---
+
+**MCQs**:
+
+1. **What programming concept is XQuery built on?**  
+   - A) Object-oriented programming  
+   - B) Functional programming  
+   - C) Procedural programming  
+   - D) Event-driven programming  
+   **Answer**: **B**
+
+2. **What does FLWOR stand for in XQuery?**  
+   - A) Find, Load, Write, Order, Return  
+   - B) For, Let, Where, Order by, Return  
+   - C) Format, Locate, Write, Organize, Review  
+   - D) Fetch, List, Write, Optimize, Return  
+   **Answer**: **B**
+
+3. **Which types of data can XQuery handle? (Multiple correct)**  
+   - A) Fully structured  
+   - B) Unstructured  
+   - C) Semi-structured  
+   - D) Encrypted  
+   **Answer**: **A, B, C**
+
+4. **What feature of XQuery allows for complex query construction?**  
+   - A) XPath compatibility  
+   - B) FLWOR expressions  
+   - C) XML compression  
+   - D) W3C validation  
+   **Answer**: **B**
+
+---
+
+### **Page 67: XQuery Use Cases**
+
+**Summary**:  
+- **Use Cases**:
+  1. **Transforming XML documents**: Converts XML data into other structured formats like HTML or JSON.  
+  2. **Aggregating data**: Combines and processes data from multiple XML sources for integration or analysis.  
+  3. **Text searching within XML**: Enables querying and locating specific text or patterns in XML documents, useful for web services.
+
+**Explanation**: XQuery’s ability to transform, aggregate, and search XML data makes it invaluable for applications involving XML-driven data processing and web services.
+
+---
+
+**MCQs**:
+
+1. **What is one of the primary uses of XQuery?**  
+   - A) Transforming XML documents  
+   - B) Compressing XML data  
+   - C) Extracting XML schemas  
+   - D) Encrypting XML documents  
+   **Answer**: **A**
+
+2. **How does XQuery handle data from multiple XML sources?**  
+   - A) By compressing the sources  
+   - B) By aggregating and processing the data  
+   - C) By extracting only schemas from the sources  
+   - D) By splitting XML files into smaller chunks  
+   **Answer**: **B**
+
+3. **Which of the following are valid XQuery use cases? (Multiple correct)**  
+   - A) Aggregating XML data from multiple sources  
+   - B) Searching text in XML documents  
+   - C) Formatting XML into structured formats like HTML  
+   - D) Validating XML schemas  
+   **Answer**: **A, B, C**
+
+4. **In web services, what is XQuery commonly used for?**  
+   - A) Encrypting XML documents  
+   - B) Searching text within XML documents  
+   - C) Splitting large XML files  
+   - D) Compressing query results  
+   **Answer**: **B**
+
+---
+
+## Lecture 4: Data Engineering:
+
+---
+
