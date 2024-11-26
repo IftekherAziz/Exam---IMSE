@@ -675,8 +675,224 @@ Here is a continuation of the summary and MCQs for every Page in the document:
 
 ## Lecture 2: Data Engineering:
 
-----
+---
 
+### **Page 6: Object-Oriented Database Management Systems (OODBMS)**
+**Summary**:  
+- **Key Features**:
+  - **Encapsulation**: Bundles data and methods, restricting access.
+  - **Inheritance**: Enables reuse of structures and behaviors.
+  - **Polymorphism**: Supports method redefinition across subclasses.
+  - **Object Identity**: Unique identifiers for each object.
+  - **Object Relationships**: Efficiently manages inter-object connections.
+
+**Explanation**: OODBMS integrates object-oriented programming concepts into database management, providing a more natural way to handle complex data.
+
+**MCQs**:
+1. **Which feature of OODBMS ensures each object has a unique identifier?**  
+   - A) Encapsulation  
+   - B) Polymorphism  
+   - C) Object Identity  
+   - D) Object Relationship  
+   **Answer**: **C**
+
+2. **What does inheritance in OODBMS allow? (Multiple correct)**  
+   - A) Reuse of structures  
+   - B) Defining custom queries  
+   - C) Behavioral inheritance  
+   - D) Storing complex objects  
+   **Answer**: **A, C**
+
+---
+
+### **Page 7: Storage and Retrieval**
+**Summary**:  
+- **Storage**:
+  - Direct storage of objects without converting to rows/columns.
+  - Objects persist beyond creation with unique Object Identifiers (OIDs).
+- **Retrieval**:
+  - Uses Object Query Language (OQL) for complex queries.
+  - Supports navigational access via object relationships.
+
+**Explanation**: OODBMS provides seamless object storage and retrieval with robust query capabilities.
+
+**MCQs**:
+1. **Which feature allows direct storage of objects in OODBMS?**  
+   - A) Object Persistence  
+   - B) Relational Mapping  
+   - C) Query Optimization  
+   - D) Navigational Access  
+   **Answer**: **A**
+
+2. **What does OQL in OODBMS enable?**  
+   - A) Navigational access to objects  
+   - B) Querying with SQL  
+   - C) Index-based retrieval  
+   - D) Storing unstructured data  
+   **Answer**: **A**
+
+---
+
+### **Page 8: Query Languages in OODBMS**
+**Summary**:  
+- Extends traditional query capabilities with object-oriented concepts.
+- **Features**:
+  - Encapsulation, inheritance, polymorphism.
+  - Support for complex types like arrays and lists.
+  - Navigation through object relationships.
+
+**Explanation**: Query languages in OODBMS simplify handling complex data relationships and types.
+
+**MCQs**:
+1. **Which features are supported by query languages in OODBMS? (Multiple correct)**  
+   - A) Encapsulation  
+   - B) Polymorphism  
+   - C) Arrays and lists  
+   - D) Static typing  
+   **Answer**: **A, B, C**
+
+2. **What is a key advantage of query languages in OODBMS?**  
+   - A) High performance for deep hierarchies  
+   - B) Intuitive navigation through object relationships  
+   - C) Reduced memory requirements  
+   - D) Standardized syntax across all databases  
+   **Answer**: **B**
+
+---
+
+### **Page 9: Object Query Language Example**
+**Summary**:  
+- **Task**: Find authors with multiple highly-rated books published in the last 5 years.  
+- Example Query (OQL):  
+  ```sql
+  SELECT DISTINCT author 
+  FROM Authors author 
+  WHERE (SELECT COUNT(*) 
+         FROM author.books book 
+         WHERE book.publication_year >= (CURRENT_YEAR - 5) 
+         AND book.averageReviewRating() > 4.0) >= 2
+  ```
+
+**Explanation**: OQL simplifies object-based querying by enabling direct traversal of relationships.
+
+**MCQs**:
+1. **What does the OQL query focus on in the example?**  
+   - A) Finding popular books  
+   - B) Identifying top-rated authors  
+   - C) Extracting recent publications  
+   - D) Querying relational databases  
+   **Answer**: **B**
+
+---
+
+### **Page 11: OODBMS Use Cases**
+**Summary**:  
+- **Applications**:
+  - CAD/CAM systems.
+  - Geographic Information Systems (GIS).
+  - Digital Asset Management (DAM).
+  - Multimedia applications.
+
+**Explanation**: OODBMS is well-suited for applications requiring complex object handling and relationships.
+
+**MCQs**:
+1. **Which industries commonly use OODBMS? (Multiple correct)**  
+   - A) Geographic Information Systems (GIS)  
+   - B) Digital Asset Management (DAM)  
+   - C) E-commerce platforms  
+   - D) Scientific data management  
+   **Answer**: **A, B, D**
+
+---
+
+### **Page 12: Pros and Cons of OODBMS**
+**Summary**:  
+- **Pros**:
+  - Reduced impedance mismatch.
+  - Support for complex data and intuitive queries.
+- **Cons**:
+  - Steeper learning curve.
+  - Performance challenges in specific scenarios.
+
+**Explanation**: While OODBMS simplifies complex data handling, it comes with challenges such as lower market adoption.
+
+**MCQs**:
+1. **What is a major advantage of OODBMS?**  
+   - A) Reduced impedance mismatch  
+   - B) High scalability for large datasets  
+   - C) No learning curve  
+   - D) Low-cost implementation  
+   **Answer**: **A**
+
+2. **What are limitations of OODBMS? (Multiple correct)**  
+   - A) Steeper learning curve  
+   - B) Less vendor support  
+   - C) Poor complex query handling  
+   - D) Limited market share  
+   **Answer**: **A, B, D**
+
+---
+
+### **Page 15: Comparison of RDBMS, ORDBMS, and OODBMS**
+**Summary**:  
+- **RDBMS**: Focus on relational data (tables).  
+- **ORDBMS**: Hybrid with object-oriented extensions.  
+- **OODBMS**: Fully object-oriented with native support for objects.
+
+**Explanation**: The three systems differ in data handling, query languages, and use case suitability.
+
+**MCQs**:
+1. **Which database system is purely object-oriented?**  
+   - A) RDBMS  
+   - B) ORDBMS  
+   - C) OODBMS  
+   - D) SQL Server  
+   **Answer**: **C**
+
+2. **What feature is unique to ORDBMS?**  
+   - A) Encapsulation  
+   - B) Relational data with object extensions  
+   - C) Polymorphism  
+   - D) Object traversal  
+   **Answer**: **B**
+
+---
+
+### **Page 18: Popular OODBMS**
+**Summary**:  
+- Examples:
+  - InterSystems Caché: High performance, SQL and analytics support.
+  - ObjectDB: Efficient for Java-based applications.
+  - db4o: Designed for Java and .NET.
+
+**Explanation**: These systems cater to niche markets and specific programming languages.
+
+**MCQs**:
+1. **Which of the following are OODBMS examples? (Multiple correct)**  
+   - A) InterSystems Caché  
+   - B) db4o  
+   - C) ObjectDB  
+   - D) Oracle DB  
+   **Answer**: **A, B, C**
+
+---
+
+### **Page 28: Parallel and Distributed Systems**
+**Summary**:  
+- **Parallel Systems**: Focus on scalability and high-speed processing.  
+- **Distributed Systems**: Spread data geographically for availability and disaster recovery.
+
+**Explanation**: These systems are designed to handle modern data workloads efficiently.
+
+**MCQs**:
+1. **What is the focus of distributed database systems?**  
+   - A) Local processing  
+   - B) Geographical distribution and disaster recovery  
+   - C) Relational data modeling  
+   - D) Performance on single-node systems  
+   **Answer**: **B**
+
+---
 
 
 
