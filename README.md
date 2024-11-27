@@ -3,8 +3,6 @@
 
 ---
 
-
-
 ### **Page 4-5: CERN’s Challenge - Datagrid**
 **Summary**:  
 - **Purpose**: Large Hadron Collider (LHC) tests particle physics theories, including discovering the Higgs Boson.  
