@@ -1,3 +1,7 @@
+## Lecture 4: Data Engineering:
+
+---
+
 ### **Slide: The Vision: Utility Computing**
 
 **Summary**:
@@ -46,4 +50,7 @@
    - C) Microvac provides solutions to immediate environmental problems.  
    - D) Galactic AC decentralizes computing for individual problem-solving.  
    **Answer**: **A**
+
+---
+
 
